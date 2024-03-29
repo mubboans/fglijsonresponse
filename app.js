@@ -1,25 +1,27 @@
 const express = require('express')
 const app = express();
+
+const route = express.Router()
 const cors = require('cors');
 const port = 3002;
 const carddetail = require('./res/json/card.json')
 app.use(cors());
 
-app.get('/dashboard/card', (req, res) => {
+route.get('/dashboard/card', (req, res) => {
     res.send(carddetail)
 })
 
-app.get('/dashboard/premium/detail', (req, res) => {
-
-    res.send(carddetail)
-})
-
-app.get('/dashboard/nop/detail', (req, res) => {
+route.get('/dashboard/premium/detail', (req, res) => {
 
     res.send(carddetail)
 })
 
-app.get('/dashboard/nca/detail', (req, res) => {
+route.get('/dashboard/nop/detail', (req, res) => {
+
+    res.send(carddetail)
+})
+
+route.get('/dashboard/nca/detail', (req, res) => {
 
     res.send(carddetail)
 })
@@ -27,5 +29,5 @@ app.get('/dashboard/nca/detail', (req, res) => {
 // app.listen(port, () => {
 //     console.log(`Example app listening on port ${port}`)
 // })
-
+app.use('/.netlify/functions/api', route)
 module.exports = app;
