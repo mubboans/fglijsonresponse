@@ -1,0 +1,620 @@
+{
+    "premium": {
+        "name": "Premium Detail",
+        "pagingInfo": {
+            "totalRecords": 61,
+            "pageNo": 1,
+            "pageSize": 5,
+            "recordCount": 5,
+            "noOfPages": 13
+        },
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "zones",
+                "datatype": "string",
+                "displayName": "Zones",
+                "dWidth": 184,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "zonemanager",
+                "datatype": "string",
+                "displayName": "Zone Manager",
+                "dWidth": 192,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ftd",
+                "datatype": "number",
+                "displayName": "FTD",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_plan",
+                "datatype": "number",
+                "displayName": "MTD Plan",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_actual",
+                "datatype": "number",
+                "displayName": "MTD Actual",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd%",
+                "datatype": "string",
+                "displayName": "MTD %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm",
+                "datatype": "number",
+                "displayName": "LYSM",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm%",
+                "datatype": "string",
+                "displayName": "LYSM %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ytd_plan",
+                "datatype": "number",
+                "displayName": "YTD Plan",
+                "dWidth": 141,
+                "mWidth": 120,
+                "lock": false
+            }
+        ],
+        "detail": [
+            {
+                "id": 21,
+                "zone": "Micaelamouth",
+                "zonemanger": "Josie Balistreri",
+                "ftd": -43,
+                "mtd_plan": 1.65,
+                "mtd_actual": 1.6,
+                "mtd%": "2.2 %",
+                "lysm": 1.7,
+                "lysm%": "-21 %",
+                "ytd_plan": 146
+            },
+            {
+                "id": 19,
+                "zone": "South Prudence",
+                "zonemanger": "Paula Kiehn",
+                "ftd": -81,
+                "mtd_plan": 1.67,
+                "mtd_actual": 1.2,
+                "mtd%": "2.4 %",
+                "lysm": 1.4,
+                "lysm%": "-6 %",
+                "ytd_plan": 129
+            },
+            {
+                "id": 12,
+                "zone": "South Morganville",
+                "zonemanger": "Junius O'Connell",
+                "ftd": -78,
+                "mtd_plan": 1.84,
+                "mtd_actual": 1.4,
+                "mtd%": "3.7 %",
+                "lysm": 1.3,
+                "lysm%": "12 %",
+                "ytd_plan": 146
+            },
+            {
+                "id": 48,
+                "zone": "West Albertashire",
+                "zonemanger": "Milo Nienow",
+                "ftd": -100,
+                "mtd_plan": 1.41,
+                "mtd_actual": 1.8,
+                "mtd%": "2.4 %",
+                "lysm": 1.4,
+                "lysm%": "1 %",
+                "ytd_plan": 109
+            },
+            {
+                "id": 25,
+                "zone": "Chettown",
+                "zonemanger": "Janet Bailey",
+                "ftd": -78,
+                "mtd_plan": 1.22,
+                "mtd_actual": 1.9,
+                "mtd%": "3.5 %",
+                "lysm": 2,
+                "lysm%": "-47 %",
+                "ytd_plan": 150
+            },
+            {
+                "id": 24,
+                "zone": "Andersonside",
+                "zonemanger": "Will Mante",
+                "ftd": -45,
+                "mtd_plan": 1.14,
+                "mtd_actual": 1.4,
+                "mtd%": "3.1 %",
+                "lysm": 2,
+                "lysm%": "5 %",
+                "ytd_plan": 130
+            },
+            {
+                "id": 36,
+                "zone": "Oklahoma City",
+                "zonemanger": "Bill Adams",
+                "ftd": -73,
+                "mtd_plan": 1.26,
+                "mtd_actual": 1.3,
+                "mtd%": "3.5 %",
+                "lysm": 1.1,
+                "lysm%": "-24 %",
+                "ytd_plan": 111
+            },
+            {
+                "id": 45,
+                "zone": "Hoover",
+                "zonemanger": "Enola Heathcote",
+                "ftd": -12,
+                "mtd_plan": 1.45,
+                "mtd_actual": 1.7,
+                "mtd%": "3.3 %",
+                "lysm": 1.5,
+                "lysm%": "7 %",
+                "ytd_plan": 146
+            },
+            {
+                "id": 44,
+                "zone": "Alexandria",
+                "zonemanger": "Perry Balistreri",
+                "ftd": -20,
+                "mtd_plan": 1.63,
+                "mtd_actual": 1.8,
+                "mtd%": "2.4 %",
+                "lysm": 1.9,
+                "lysm%": "-33 %",
+                "ytd_plan": 131
+            },
+            {
+                "id": 40,
+                "zone": "Fort Lucinda",
+                "zonemanger": "Violet Schaefer",
+                "ftd": 18,
+                "mtd_plan": 1.3,
+                "mtd_actual": 1.6,
+                "mtd%": "2.5 %",
+                "lysm": 1.1,
+                "lysm%": "-9 %",
+                "ytd_plan": 108
+            },
+            {
+                "id": 10,
+                "zone": "Romaworth",
+                "zonemanger": "Maybell Sawayn",
+                "ftd": -72,
+                "mtd_plan": 1.14,
+                "mtd_actual": 1.9,
+                "mtd%": "3.8 %",
+                "lysm": 1.6,
+                "lysm%": "-14 %",
+                "ytd_plan": 117
+            }
+        ]
+    },
+    "nop": {
+        "name": "NOP Detail",
+        "pagingInfo": {
+            "totalRecords": 61,
+            "pageNo": 1,
+            "pageSize": 5,
+            "recordCount": 5,
+            "noOfPages": 13
+        },
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "zones",
+                "datatype": "string",
+                "displayName": "Zones",
+                "dWidth": 184,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "zonemanager",
+                "datatype": "string",
+                "displayName": "Zone Manager",
+                "dWidth": 192,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ftd",
+                "datatype": "number",
+                "displayName": "FTD",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_plan",
+                "datatype": "number",
+                "displayName": "MTD Plan",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_actual",
+                "datatype": "number",
+                "displayName": "MTD Actual",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd%",
+                "datatype": "string",
+                "displayName": "MTD %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm",
+                "datatype": "number",
+                "displayName": "LYSM",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm%",
+                "datatype": "string",
+                "displayName": "LYSM %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ytd_plan",
+                "datatype": "number",
+                "displayName": "YTD Plan",
+                "dWidth": 141,
+                "mWidth": 120,
+                "lock": false
+            }
+        ],
+        "detail": [
+            {
+                "id": 61,
+                "zone": "Fort Louveniaport",
+                "zonemanger": "Monte Carter",
+                "ftd": -29,
+                "mtd_plan": 1.63,
+                "mtd_actual": 1.4,
+                "mtd%": "3.3 %",
+                "lysm": 1.6,
+                "lysm%": "-86 %",
+                "ytd_plan": 100
+            },
+            {
+                "id": 82,
+                "zone": "New Jadonton",
+                "zonemanger": "Bulah Friesen",
+                "ftd": -98,
+                "mtd_plan": 1.28,
+                "mtd_actual": 1.6,
+                "mtd%": "3.1 %",
+                "lysm": 1.4,
+                "lysm%": "-94 %",
+                "ytd_plan": 8
+            },
+            {
+                "id": 83,
+                "zone": "West Alverta",
+                "zonemanger": "Dillan Okuneva-McDermott",
+                "ftd": -79,
+                "mtd_plan": 1.03,
+                "mtd_actual": 1.8,
+                "mtd%": "2.5 %",
+                "lysm": 1.1,
+                "lysm%": "-37 %",
+                "ytd_plan": 95
+            },
+            {
+                "id": 83,
+                "zone": "Manteca",
+                "zonemanger": "Hailey Jakubowski",
+                "ftd": -34,
+                "mtd_plan": 1.09,
+                "mtd_actual": 1.9,
+                "mtd%": "3.4 %",
+                "lysm": 1.2,
+                "lysm%": "-90 %",
+                "ytd_plan": 63
+            },
+            {
+                "id": 50,
+                "zone": "South Orland",
+                "zonemanger": "Imelda Hauck",
+                "ftd": -29,
+                "mtd_plan": 1.56,
+                "mtd_actual": 1.4,
+                "mtd%": "4 %",
+                "lysm": 1.5,
+                "lysm%": "-91 %",
+                "ytd_plan": 62
+            },
+            {
+                "id": 50,
+                "zone": "Santa Clara",
+                "zonemanger": "Ambrose Block",
+                "ftd": 18,
+                "mtd_plan": 1,
+                "mtd_actual": 1,
+                "mtd%": "4 %",
+                "lysm": 1.3,
+                "lysm%": "50 %",
+                "ytd_plan": 77
+            },
+            {
+                "id": 78,
+                "zone": "Lake Mathewberg",
+                "zonemanger": "Sandy Bogan-Roob",
+                "ftd": -20,
+                "mtd_plan": 1.17,
+                "mtd_actual": 1.1,
+                "mtd%": "3 %",
+                "lysm": 1.1,
+                "lysm%": "-8 %",
+                "ytd_plan": 2
+            },
+            {
+                "id": 91,
+                "zone": "McKenziemouth",
+                "zonemanger": "Arthur Kreiger",
+                "ftd": 7,
+                "mtd_plan": 1.98,
+                "mtd_actual": 1.1,
+                "mtd%": "3.3 %",
+                "lysm": 1.5,
+                "lysm%": "-67 %",
+                "ytd_plan": 32
+            },
+            {
+                "id": 93,
+                "zone": "Balistrerifort",
+                "zonemanger": "Kaylie Rodriguez",
+                "ftd": -98,
+                "mtd_plan": 1.96,
+                "mtd_actual": 1.8,
+                "mtd%": "2.3 %",
+                "lysm": 1.1,
+                "lysm%": "-27 %",
+                "ytd_plan": 90
+            },
+            {
+                "id": 95,
+                "zone": "Andersonchester",
+                "zonemanger": "Isac Dibbert",
+                "ftd": 12,
+                "mtd_plan": 1.23,
+                "mtd_actual": 1.1,
+                "mtd%": "2.2 %",
+                "lysm": 1.4,
+                "lysm%": "-64 %",
+                "ytd_plan": 66
+            }
+        ]
+    },
+    "nca": {
+        "name": "NCA Detail",
+        "pagingInfo": {
+            "totalRecords": 61,
+            "pageNo": 1,
+            "pageSize": 5,
+            "recordCount": 5,
+            "noOfPages": 13
+        },
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "zones",
+                "datatype": "string",
+                "displayName": "Zones",
+                "dWidth": 184,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "zonemanager",
+                "datatype": "string",
+                "displayName": "Zone Manager",
+                "dWidth": 192,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ftd",
+                "datatype": "number",
+                "displayName": "FTD",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_plan",
+                "datatype": "number",
+                "displayName": "MTD Plan",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd_actual",
+                "datatype": "number",
+                "displayName": "MTD Actual",
+                "dWidth": 128,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "mtd%",
+                "datatype": "string",
+                "displayName": "MTD %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm",
+                "datatype": "number",
+                "displayName": "LYSM",
+                "dWidth": 112,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "lysm%",
+                "datatype": "string",
+                "displayName": "LYSM %",
+                "dWidth": 152,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ytd_plan",
+                "datatype": "number",
+                "displayName": "YTD Plan",
+                "dWidth": 141,
+                "mWidth": 120,
+                "lock": false
+            }
+        ],
+        "detail": [
+            {
+                "id": 104,
+                "zone": "Cruickshankboro",
+                "zonemanager": "Grayce Sawyer",
+                "ftd": -15,
+                "mtd_plan": 1.99,
+                "mtd_actual": 3.69,
+                "mtd%": "107 %",
+                "lysm": 2,
+                "lysm%": "18 %",
+                "ytd_plan": 143
+            },
+            {
+                "id": 130,
+                "zone": "Dallas",
+                "zonemanager": "Jonathon Leslie",
+                "ftd": -66,
+                "mtd_plan": 0.24,
+                "mtd_actual": 1.86,
+                "mtd%": "107 %",
+                "lysm": 2,
+                "lysm%": "-3 %",
+                "ytd_plan": 132
+            },
+            {
+                "id": 141,
+                "zone": "South Missouriborough",
+                "zonemanager": "Jorge Bowie",
+                "ftd": -47,
+                "mtd_plan": 1.67,
+                "mtd_actual": 2.56,
+                "mtd%": "107 %",
+                "lysm": 2,
+                "lysm%": "30 %",
+                "ytd_plan": 115
+            },
+            {
+                "id": 111,
+                "zone": "New Joanie",
+                "zonemanager": "Summer Noah",
+                "ftd": -12,
+                "mtd_plan": 1.06,
+                "mtd_actual": 3.16,
+                "mtd%": "-153 %",
+                "lysm": 2,
+                "lysm%": "9 %",
+                "ytd_plan": 106
+            },
+            {
+                "id": 129,
+                "zone": "Stellaberg",
+                "zonemanager": "Alisa Sasha",
+                "ftd": -48,
+                "mtd_plan": 0.06,
+                "mtd_actual": 2.95,
+                "mtd%": "-166 %",
+                "lysm": 2,
+                "lysm%": "26 %",
+                "ytd_plan": 101
+            },
+            {
+                "id": 148,
+                "zone": "Fort Rosamond",
+                "zonemanager": "Emerson Anderson",
+                "ftd": -51,
+                "mtd_plan": 1.13,
+                "mtd_actual": 3.11,
+                "mtd%": "169 %",
+                "lysm": 2,
+                "lysm%": "-14 %",
+                "ytd_plan": 145
+            },
+            {
+                "id": 121,
+                "zone": "Boganfort",
+                "zonemanager": "Gennaro Noah",
+                "ftd": -7,
+                "mtd_plan": 0.24,
+                "mtd_actual": 1.57,
+                "mtd%": "158 %",
+                "lysm": 2,
+                "lysm%": "27 %",
+                "ytd_plan": 116
+            }
+        ]
+    }
+}

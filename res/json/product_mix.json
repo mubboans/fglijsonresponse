@@ -1,0 +1,440 @@
+{
+    "name": "Product Mix",
+    "pagingInfo": {
+        "totalRecords": 61,
+        "pageNo": 1,
+        "pageSize": 5,
+        "recordCount": 5,
+        "noOfPages": 13
+    },
+    "columnname": [
+        {
+            "colname": "zones",
+            "datatype": "string",
+            "subheading": [],
+            "displayName": "Zones",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "par",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "PAR",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "nopar",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "NO PAR",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "ulip",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "ULIP",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "term",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "TERM",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "annuity",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "ANNUITY",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "pension",
+            "subheading": [
+                {
+                    "colname": "ppt<==10",
+                    "datatype": "string",
+                    "displayName": "PPT<==10"
+                },
+                {
+                    "colname": "ppt>==10",
+                    "datatype": "string",
+                    "displayName": "PPT>==10"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "PENSION",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        }
+    ],
+    "detail": [
+        {
+            "zones": "zone1",
+            "par": {
+                "ppt<==10": "116.6 %",
+                "ppt>==10": "5.77 %"
+            },
+            "nopar": {
+                "ppt<==10": "-42.67 %",
+                "ppt>==10": "-71.6 %"
+            },
+            "ulip": {
+                "ppt<==10": "49.1 %",
+                "ppt>==10": "234.6 %"
+            },
+            "term": {
+                "ppt<==10": "19.08 %",
+                "ppt>==10": "315.16 %"
+            },
+            "annuity": {
+                "ppt<==10": "188.7 %",
+                "ppt>==10": "278.18 %"
+            },
+            "pension": {
+                "ppt<==10": "6.6 %",
+                "ppt>==10": "337.27 %"
+            }
+        },
+        {
+            "zones": "zone2",
+            "par": {
+                "ppt<==10": "149.2 %",
+                "ppt>==10": "64.73 %"
+            },
+            "nopar": {
+                "ppt<==10": "-39 %",
+                "ppt>==10": "-63.13 %"
+            },
+            "ulip": {
+                "ppt<==10": "-53.6 %",
+                "ppt>==10": "205.11 %"
+            },
+            "term": {
+                "ppt<==10": "18.7 %",
+                "ppt>==10": "302.13 %"
+            },
+            "annuity": {
+                "ppt<==10": "131.2 %",
+                "ppt>==10": "237.37 %"
+            },
+            "pension": {
+                "ppt<==10": "-18.5 %",
+                "ppt>==10": "383.9 %"
+            }
+        },
+        {
+            "zones": "zone3",
+            "par": {
+                "ppt<==10": "119.7 %",
+                "ppt>==10": "52.15 %"
+            },
+            "nopar": {
+                "ppt<==10": "-11.77 %",
+                "ppt>==10": "76.25 %"
+            },
+            "ulip": {
+                "ppt<==10": "110.6 %",
+                "ppt>==10": "240.82 %"
+            },
+            "term": {
+                "ppt<==10": "14.11 %",
+                "ppt>==10": "336.29 %"
+            },
+            "annuity": {
+                "ppt<==10": "171.3 %",
+                "ppt>==10": "228.13 %"
+            },
+            "pension": {
+                "ppt<==10": "-19 %",
+                "ppt>==10": "318.21 %"
+            }
+        },
+        {
+            "zones": "zone4",
+            "par": {
+                "ppt<==10": "110.6 %",
+                "ppt>==10": "15.43 %"
+            },
+            "nopar": {
+                "ppt<==10": "14.23 %",
+                "ppt>==10": "-37.81 %"
+            },
+            "ulip": {
+                "ppt<==10": "119.4 %",
+                "ppt>==10": "238.4 %"
+            },
+            "term": {
+                "ppt<==10": "16.7 %",
+                "ppt>==10": "323.65 %"
+            },
+            "annuity": {
+                "ppt<==10": "121.4 %",
+                "ppt>==10": "249.89 %"
+            },
+            "pension": {
+                "ppt<==10": "17.2 %",
+                "ppt>==10": "199.55 %"
+            }
+        },
+        {
+            "zones": "zone5",
+            "par": {
+                "ppt<==10": "139.8 %",
+                "ppt>==10": "90.43 %"
+            },
+            "nopar": {
+                "ppt<==10": "-18.09 %",
+                "ppt>==10": "-54.08 %"
+            },
+            "ulip": {
+                "ppt<==10": "52.1 %",
+                "ppt>==10": "223.7 %"
+            },
+            "term": {
+                "ppt<==10": "6.31 %",
+                "ppt>==10": "323.73 %"
+            },
+            "annuity": {
+                "ppt<==10": "138.9 %",
+                "ppt>==10": "286.46 %"
+            },
+            "pension": {
+                "ppt<==10": "-34.8 %",
+                "ppt>==10": "452.48 %"
+            }
+        },
+        {
+            "zones": "zone6",
+            "par": {
+                "ppt<==10": "124.7 %",
+                "ppt>==10": "85.72 %"
+            },
+            "nopar": {
+                "ppt<==10": "-18.07 %",
+                "ppt>==10": "-87.59 %"
+            },
+            "ulip": {
+                "ppt<==10": "57.2 %",
+                "ppt>==10": "237.65 %"
+            },
+            "term": {
+                "ppt<==10": "14.34 %",
+                "ppt>==10": "339 %"
+            },
+            "annuity": {
+                "ppt<==10": "102.7 %",
+                "ppt>==10": "267.78 %"
+            },
+            "pension": {
+                "ppt<==10": "-38.5 %",
+                "ppt>==10": "131.68 %"
+            }
+        },
+        {
+            "zones": "zone7",
+            "par": {
+                "ppt<==10": "145.3 %",
+                "ppt>==10": "8.9 %"
+            },
+            "nopar": {
+                "ppt<==10": "1.3 %",
+                "ppt>==10": "27.33 %"
+            },
+            "ulip": {
+                "ppt<==10": "93.9 %",
+                "ppt>==10": "249.02 %"
+            },
+            "term": {
+                "ppt<==10": "2.81 %",
+                "ppt>==10": "304.54 %"
+            },
+            "annuity": {
+                "ppt<==10": "176.6 %",
+                "ppt>==10": "243.92 %"
+            },
+            "pension": {
+                "ppt<==10": "-5 %",
+                "ppt>==10": "410.63 %"
+            }
+        },
+        {
+            "zones": "zone3",
+            "par": {
+                "ppt<==10": "124.7 %",
+                "ppt>==10": "85.72 %"
+            },
+            "nopar": {
+                "ppt<==10": "-18.07 %",
+                "ppt>==10": "-87.59 %"
+            },
+            "ulip": {
+                "ppt<==10": "57.2 %",
+                "ppt>==10": "237.65 %"
+            },
+            "term": {
+                "ppt<==10": "14.34 %",
+                "ppt>==10": "339 %"
+            },
+            "annuity": {
+                "ppt<==10": "102.7 %",
+                "ppt>==10": "267.78 %"
+            },
+            "pension": {
+                "ppt<==10": "17.2 %",
+                "ppt>==10": "316.04 %"
+            }
+        },
+        {
+            "zones": "zone7",
+            "par": {
+                "ppt<==10": "145.3 %",
+                "ppt>==10": "8.9 %"
+            },
+            "nopar": {
+                "ppt<==10": "1.3 %",
+                "ppt>==10": "27.33 %"
+            },
+            "ulip": {
+                "ppt<==10": "93.9 %",
+                "ppt>==10": "249.02 %"
+            },
+            "term": {
+                "ppt<==10": "2.81 %",
+                "ppt>==10": "304.54 %"
+            },
+            "annuity": {
+                "ppt<==10": "176.6 %",
+                "ppt>==10": "243.92 %"
+            },
+            "pension": {
+                "ppt<==10": "-24.6 %",
+                "ppt>==10": "382.57 %"
+            }
+        },
+        {
+            "zones": "zone8",
+            "par": {
+                "ppt<==10": "124.7 %",
+                "ppt>==10": "39.57 %"
+            },
+            "nopar": {
+                "ppt<==10": "-19.48 %",
+                "ppt>==10": "-58.71 %"
+            },
+            "ulip": {
+                "ppt<==10": "115.8 %",
+                "ppt>==10": "223.88 %"
+            },
+            "term": {
+                "ppt<==10": "8.63 %",
+                "ppt>==10": "317.45 %"
+            },
+            "annuity": {
+                "ppt<==10": "123.1 %",
+                "ppt>==10": "253.16 %"
+            },
+            "pension": {
+                "ppt<==10": "-44.4 %",
+                "ppt>==10": "346.66 %"
+            }
+        },
+        {
+            "zones": "zone9",
+            "par": {
+                "ppt<==10": "147.8 %",
+                "ppt>==10": "68.16 %"
+            },
+            "nopar": {
+                "ppt<==10": "-30.46 %",
+                "ppt>==10": "-90.88 %"
+            },
+            "ulip": {
+                "ppt<==10": "192 %",
+                "ppt>==10": "225.66 %"
+            },
+            "term": {
+                "ppt<==10": "11.61 %",
+                "ppt>==10": "320.25 %"
+            },
+            "annuity": {
+                "ppt<==10": "124.5 %",
+                "ppt>==10": "212.21 %"
+            },
+            "pension": {
+                "ppt<==10": "-44.4 %",
+                "ppt>==10": "346.66 %"
+            }
+        }
+    ]
+}
