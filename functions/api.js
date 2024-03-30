@@ -6,7 +6,7 @@ const app = express();
 const route = express.Router()
 const cors = require('cors');
 const port = 3002;
-const carddetail = require('./res/json/card.json')
+const carddetail = require('../res/json/card.json')
 app.use(cors());
 route.get('/', (req, res) => {
     res.send({ message: 'working api', status: true }).statusCode(200)

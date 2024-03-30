@@ -5,8 +5,9 @@
             "value": "24.01cr",
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
-            "iconvalue": "Calender",
-            "detailUrl":"/dashboard/product/detail",
+            "iconvalue": "wallet",
+            "detailUrl": "/dashboard/premium/detail",
+            "bgiconcolor": "#2C96F1",
             "columnname": [
                 {
                     "colname": "name",
@@ -91,7 +92,9 @@
             "value": "18.1cr",
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
-            "iconvalue": "User",
+            "iconvalue": "users",
+            "detailUrl": "/dashboard/nop/detail",
+            "bgiconcolor": "#FF5660",
             "columnname": [
                 {
                     "colname": "name",
@@ -176,7 +179,9 @@
             "value": "213cr",
             "lysmvalue": "19.82%",
             "planvalue": "22.20%",
-            "iconvalue": "LightBolt",
+            "iconvalue": "charger",
+            "bgiconcolor": "#6643B5",
+            "detailUrl": "/dashboard/nca/detail",
             "columnname": [
                 {
                     "colname": "name",
