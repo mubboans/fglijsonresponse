@@ -6,6 +6,7 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "Calender",
+            "detailUrl":"/dashboard/product/detail",
             "columnname": [
                 {
                     "colname": "name",
