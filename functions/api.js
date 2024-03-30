@@ -37,4 +37,4 @@ route.get('/dashboard/nca/detail', (req, res) => {
 app.use('/.netlify/functions/api', route)// Import the Express app instance from app.js
 
 // Define your Cloud Function
-exports.api = server(app);
+exports.handler = server(app);
