@@ -8,7 +8,8 @@ const carddetail = require('./res/json/card.json');
 const tabledetail = require('./res/json/detail.json');
 const product_mix = require('./res/json/product_mix.json');
 const stock = require('./res/json/stockdetail.json');
-const presistencecard = require('./res/json/presistence.json');
+const presistencecard = require('./res/json/presistencecard.json');
+const persdetail = require('./res/json/presistencedetail.json');
 app.use(cors());
 route.get('/', (req, res) => {
     res.send({ message: 'working api', status: true }).status(200)
@@ -38,16 +39,16 @@ route.get('/leakage/stock/detail', (req, res) => {
     res.send(stock).status(200);
 })
 route.get('/presistence/card', (req, res) => {
-    res.send(stock).status(200);
+    res.send(presistencecard).status(200);
 })
 route.get('/presistence/presistence/detail', (req, res) => {
-    res.send(stock).status(200);
+    res.send(persdetail.persistency).status(200);
 })
 route.get('/presistence/summaryrcd/detail', (req, res) => {
-    res.send(stock).status(200);
+    res.send(persdetail.summaryrcd).status(200);
 })
 route.get('/presistence/summarysm/detail', (req, res) => {
-    res.send(stock).status(200);
+    res.send(persdetail.summaryrd).status(200);
 })
 
 
