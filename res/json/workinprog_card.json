@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Bucket wise ageing",
+        "subtitle": "WIP",
+        "iconvalue": "wallet",
+        "bgiconcolor": "light-yellow",
+        "columnname": [
+            {
+                "colname": "overallpendingsummary",
+                "datatype": "string",
+                "displayName": "Overall Pending Summary",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "vippendingwithops",
+                "datatype": "string",
+                "displayName": "VIP Pending with Ops",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "pendingwsales",
+                "datatype": "string",
+                "displayName": "Pending With Sales",
+                "headercolor": "light-yellow"
+            }
+        ],
+        "columndata": [
+            {
+                "overallpendingsummary": "819202",
+                "vippendingwithops": "819203",
+                "pendingwsales": "982130"
+            }
+        ]
+    },
+    {
+        "title": "ROM wise - ageing",
+        "iconvalue": "copy",
+        "bgiconcolor": "light-green",
+        "columnname": [
+            {
+                "colname": "aepsubstatus",
+                "datatype": "string",
+                "displayName": "Aep - Sub Status",
+                "headercolor": "light-green"
+            },
+            {
+                "colname": "nopsubstatus",
+                "datatype": "string",
+                "displayName": "NOP - Sub Status",
+                "headercolor": "light-green"
+            },
+            {
+                "colname": "aeprom",
+                "datatype": "string",
+                "displayName": "AEP-ROM",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "noprom",
+                "datatype": "string",
+                "displayName": "NOP-ROM",
+                "headercolor": "light-yellow"
+            }
+        ],
+        "columndata": [
+            {
+                "aepsubstatus": "14.19%",
+                "nopsubstatus": "23.11%",
+                "aeprom": "12.10",
+                "noprom": "10.29%"
+            }
+        ]
+    }
+]

@@ -7,7 +7,7 @@
             "planvalue": "13.22%",
             "iconvalue": "wallet",
             "detailUrl": "/login/premium/detail",
-            "bgiconcolor": "#2C96F1",
+            "bgiconcolor": "sky-blue",
             "columnname": [
                 {
                     "colname": "name",
@@ -92,9 +92,9 @@
             "value": "18.1cr",
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
-            "iconvalue": "users",
+            "iconvalue": "account",
             "detailUrl": "/login/nop/detail",
-            "bgiconcolor": "#FF5660",
+            "bgiconcolor": "pink",
             "columnname": [
                 {
                     "colname": "name",
@@ -180,7 +180,7 @@
             "lysmvalue": "19.82%",
             "planvalue": "22.20%",
             "iconvalue": "charger",
-            "bgiconcolor": "#6643B5",
+            "bgiconcolor": "purple",
             "detailUrl": "/login/nca/detail",
             "columnname": [
                 {

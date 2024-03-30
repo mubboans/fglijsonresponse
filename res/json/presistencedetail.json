@@ -331,7 +331,7 @@
         ]
     },
     "summaryrcd": {
-        "name": "CURRENT MONTH PERSISTENCY",
+        "name": "CURRENT MONTH SUMMARY RCD",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -662,7 +662,7 @@
         ]
     },
     "summaryrd": {
-        "name": "CURRENT MONTH PERSISTENCY",
+        "name": "CURRENT MONTH SUMMARY RD",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
