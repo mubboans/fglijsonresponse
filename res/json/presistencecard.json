@@ -1,0 +1,202 @@
+{
+    "card": [
+        {
+            "title": "Persistency",
+            "subtitle": "Current month",
+            "iconvalue": "calendar",
+            "detailUrl": "/presistence/presistence/detail",
+            "bgiconcolor": "#2C96F1",
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Kathy Baldwin",
+                    "nop": "133.1%",
+                    "ape": "70.14%"
+                },
+                {
+                    "name": "Wilson Copeland",
+                    "nop": "101.3%",
+                    "ape": "88.58%"
+                },
+                {
+                    "name": "Mullins Duran",
+                    "nop": "112.6%",
+                    "ape": "79.64%"
+                },
+                {
+                    "name": "Rosie Cardenas",
+                    "nop": "137.8%",
+                    "ape": "95.99%"
+                },
+                {
+                    "name": "Dennis Powers",
+                    "nop": "111%",
+                    "ape": "56.77%"
+                },
+                {
+                    "name": "Larsen Sampson",
+                    "nop": "121.9%",
+                    "ape": "2.36%"
+                },
+                {
+                    "name": "Helga Burton",
+                    "nop": "142.1%",
+                    "ape": "5.95%"
+                },
+                {
+                    "name": "Molina Phillips",
+                    "nop": "103.6%",
+                    "ape": "74.6%"
+                }
+            ]
+        },
+        {
+            "title": "Summary",
+            "subtitle": "RCD level",
+            "iconvalue": "hospital",
+            "detailUrl": "/presistence/summaryrcd/detail",
+            "bgiconcolor": "#FF5660",
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Dunlap Cohen",
+                    "nop": "100.6%",
+                    "ape": "6.78%"
+                },
+                {
+                    "name": "Elinor James",
+                    "nop": "130.8%",
+                    "ape": "39.64%"
+                },
+                {
+                    "name": "Maribel Conner",
+                    "nop": "130.9%",
+                    "ape": "34.79%"
+                },
+                {
+                    "name": "Deirdre Lambert",
+                    "nop": "123.3%",
+                    "ape": "19.2%"
+                },
+                {
+                    "name": "Gale Santana",
+                    "nop": "108.5%",
+                    "ape": "46.81%"
+                },
+                {
+                    "name": "Mcconnell Harmon",
+                    "nop": "105.5%",
+                    "ape": "53.58%"
+                },
+                {
+                    "name": "Vilma Underwood",
+                    "nop": "135.1%",
+                    "ape": "44.49%"
+                },
+                {
+                    "name": "Lourdes Vance",
+                    "nop": "146.5%",
+                    "ape": "66.27%"
+                }
+            ]
+        },
+        {
+            "title": "Summary",
+            "subtitle": "SM level",
+            "iconvalue": "hospital",
+            "detailUrl": "/presistence/summarysm/detail",
+            "bgiconcolor": "#FFA756",
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Deloris Wiggins",
+                    "nop": "114.5%",
+                    "ape": "20.49%"
+                },
+                {
+                    "name": "Natasha Bryant",
+                    "nop": "146.3%",
+                    "ape": "64.63%"
+                },
+                {
+                    "name": "Sabrina Velez",
+                    "nop": "102.5%",
+                    "ape": "32.38%"
+                },
+                {
+                    "name": "Genevieve Faulkner",
+                    "nop": "149.6%",
+                    "ape": "96.46%"
+                },
+                {
+                    "name": "Cameron Garrison",
+                    "nop": "134.9%",
+                    "ape": "3.5%"
+                },
+                {
+                    "name": "Byrd Lewis",
+                    "nop": "129.5%",
+                    "ape": "55.78%"
+                },
+                {
+                    "name": "Jennings Wilder",
+                    "nop": "136.6%",
+                    "ape": "74.23%"
+                },
+                {
+                    "name": "Cash Greene",
+                    "nop": "136.2%",
+                    "ape": "83.77%"
+                }
+            ]
+        }
+    ]
+}

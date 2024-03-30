@@ -6,7 +6,7 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
-            "detailUrl": "/dashboard/premium/detail",
+            "detailUrl": "/login/premium/detail",
             "bgiconcolor": "#2C96F1",
             "columnname": [
                 {
@@ -93,7 +93,7 @@
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "users",
-            "detailUrl": "/dashboard/nop/detail",
+            "detailUrl": "/login/nop/detail",
             "bgiconcolor": "#FF5660",
             "columnname": [
                 {
@@ -181,7 +181,7 @@
             "planvalue": "22.20%",
             "iconvalue": "charger",
             "bgiconcolor": "#6643B5",
-            "detailUrl": "/dashboard/nca/detail",
+            "detailUrl": "/login/nca/detail",
             "columnname": [
                 {
                     "colname": "name",

@@ -1,0 +1,331 @@
+{
+    "name": "CURRENT MONTH PERSISTENCY",
+    "pagingInfo": {
+        "totalRecords": 61,
+        "pageNo": 1,
+        "pageSize": 5,
+        "recordCount": 5,
+        "noOfPages": 13
+    },
+    "columnname": [
+        {
+            "colname": "id",
+            "datatype": "number",
+            "displayName": "Id",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
+            "colname": "agent_name",
+            "datatype": "string",
+            "subheading": [],
+            "displayName": "Agent Name",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "13th_month_paid",
+            "subheading": [
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "13th Month Paid",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "13th_month_not_paid",
+            "subheading": [
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "13th Month Not Paid",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "13th_month_total",
+            "subheading": [
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "13th Month Total",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "13th_month_%",
+            "subheading": [
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "13th Month %",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        },
+        {
+            "colname": "mtd",
+            "subheading": [
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "datatype": "object",
+            "displayName": "MTD",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": true
+        }
+    ],
+    "detail": [
+        {
+            "id": 0,
+            "agent_name": "Krista Arnold",
+            "13th_month_paid": {
+                "nop": 142.1,
+                "ape": 33.91
+            },
+            "13th_month_not_paid": {
+                "nop": 107.8,
+                "ape": 35.74
+            },
+            "13th_month_total": {
+                "nop": 144.2,
+                "ape": 64.13
+            },
+            "mtd": {
+                "nop": 119.8,
+                "ape": 44.85
+            }
+        },
+        {
+            "id": 1,
+            "agent_name": "Brenda Guzman",
+            "13th_month_paid": {
+                "nop": 109.7,
+                "ape": 50.64
+            },
+            "13th_month_not_paid": {
+                "nop": 110.6,
+                "ape": 29.38
+            },
+            "13th_month_total": {
+                "nop": 132.6,
+                "ape": 29.13
+            },
+            "mtd": {
+                "nop": 132.5,
+                "ape": 42.29
+            }
+        },
+        {
+            "id": 2,
+            "agent_name": "Sherman Walls",
+            "13th_month_paid": {
+                "nop": 143.2,
+                "ape": 55.86
+            },
+            "13th_month_not_paid": {
+                "nop": 130.1,
+                "ape": 52.12
+            },
+            "13th_month_total": {
+                "nop": 111.6,
+                "ape": 76.54
+            },
+            "mtd": {
+                "nop": 133.1,
+                "ape": 12.81
+            }
+        },
+        {
+            "id": 3,
+            "agent_name": "Tillman Mendez",
+            "13th_month_paid": {
+                "nop": 147.1,
+                "ape": 88.77
+            },
+            "13th_month_not_paid": {
+                "nop": 130.7,
+                "ape": 50.63
+            },
+            "13th_month_total": {
+                "nop": 126.7,
+                "ape": 15.89
+            },
+            "mtd": {
+                "nop": 110.9,
+                "ape": 80.8
+            }
+        },
+        {
+            "id": 4,
+            "agent_name": "Claudette Grant",
+            "13th_month_paid": {
+                "nop": 139.8,
+                "ape": 20.46
+            },
+            "13th_month_not_paid": {
+                "nop": 107.4,
+                "ape": 85.48
+            },
+            "13th_month_total": {
+                "nop": 123.6,
+                "ape": 43.35
+            },
+            "mtd": {
+                "nop": 131.3,
+                "ape": 17.8
+            }
+        },
+        {
+            "id": 5,
+            "agent_name": "Ewing Finley",
+            "13th_month_paid": {
+                "nop": 109.7,
+                "ape": 93.68
+            },
+            "13th_month_not_paid": {
+                "nop": 129.6,
+                "ape": 65.1
+            },
+            "13th_month_total": {
+                "nop": 130.1,
+                "ape": 17.15
+            },
+            "mtd": {
+                "nop": 108.5,
+                "ape": 80.75
+            }
+        },
+        {
+            "id": 6,
+            "agent_name": "Rhoda Sandoval",
+            "13th_month_paid": {
+                "nop": 105.2,
+                "ape": 93.91
+            },
+            "13th_month_not_paid": {
+                "nop": 125.4,
+                "ape": 95.34
+            },
+            "13th_month_total": {
+                "nop": 100,
+                "ape": 53.49
+            },
+            "mtd": {
+                "nop": 106.6,
+                "ape": 88.11
+            }
+        },
+        {
+            "id": 7,
+            "agent_name": "Whitley Boyd",
+            "13th_month_paid": {
+                "nop": 122.8,
+                "ape": 27.84
+            },
+            "13th_month_not_paid": {
+                "nop": 129.6,
+                "ape": 53.89
+            },
+            "13th_month_total": {
+                "nop": 123.5,
+                "ape": 41.92
+            },
+            "mtd": {
+                "nop": 133.2,
+                "ape": 41.67
+            }
+        },
+        {
+            "id": 8,
+            "agent_name": "Holman Copeland",
+            "13th_month_paid": {
+                "nop": 120.9,
+                "ape": 15.17
+            },
+            "13th_month_not_paid": {
+                "nop": 127.3,
+                "ape": 44.41
+            },
+            "13th_month_total": {
+                "nop": 109,
+                "ape": 96.72
+            },
+            "mtd": {
+                "nop": 104.2,
+                "ape": 82.27
+            }
+        },
+        {
+            "id": 9,
+            "agent_name": "Jane Evans",
+            "13th_month_paid": {
+                "nop": 138.7,
+                "ape": 84.37
+            },
+            "13th_month_not_paid": {
+                "nop": 127.1,
+                "ape": 98.02
+            },
+            "13th_month_total": {
+                "nop": 135.2,
+                "ape": 71.73
+            },
+            "mtd": {
+                "nop": 141.2,
+                "ape": 25.63
+            }
+        }
+    ]
+}

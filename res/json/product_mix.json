@@ -9,6 +9,14 @@
     },
     "columnname": [
         {
+            "colname": "id",
+            "datatype": "number",
+            "displayName": "Id",
+            "dWidth": 146,
+            "mWidth": 120,
+            "lock": false
+        },
+        {
             "colname": "zones",
             "datatype": "string",
             "subheading": [],
@@ -140,6 +148,7 @@
     ],
     "detail": [
         {
+            "id": 1,
             "zones": "zone1",
             "par": {
                 "ppt<==10": "116.6 %",
@@ -167,6 +176,7 @@
             }
         },
         {
+            "id": 2,
             "zones": "zone2",
             "par": {
                 "ppt<==10": "149.2 %",
@@ -194,6 +204,7 @@
             }
         },
         {
+            "id": 3,
             "zones": "zone3",
             "par": {
                 "ppt<==10": "119.7 %",
@@ -221,6 +232,7 @@
             }
         },
         {
+            "id": 4,
             "zones": "zone4",
             "par": {
                 "ppt<==10": "110.6 %",
@@ -248,6 +260,7 @@
             }
         },
         {
+            "id": 5,
             "zones": "zone5",
             "par": {
                 "ppt<==10": "139.8 %",
@@ -275,6 +288,7 @@
             }
         },
         {
+            "id": 6,
             "zones": "zone6",
             "par": {
                 "ppt<==10": "124.7 %",
@@ -302,6 +316,7 @@
             }
         },
         {
+            "id": 7,
             "zones": "zone7",
             "par": {
                 "ppt<==10": "145.3 %",
@@ -329,6 +344,7 @@
             }
         },
         {
+            "id": 8,
             "zones": "zone3",
             "par": {
                 "ppt<==10": "124.7 %",
@@ -356,6 +372,7 @@
             }
         },
         {
+            "id": 9,
             "zones": "zone7",
             "par": {
                 "ppt<==10": "145.3 %",
@@ -383,6 +400,7 @@
             }
         },
         {
+            "id": 10,
             "zones": "zone8",
             "par": {
                 "ppt<==10": "124.7 %",
@@ -410,6 +428,7 @@
             }
         },
         {
+            "id": 11,
             "zones": "zone9",
             "par": {
                 "ppt<==10": "147.8 %",
