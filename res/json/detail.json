@@ -13,8 +13,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 146,
-                "mWidth": 120,
+                "dWidth": 40,
+                "mWidth": 46,
                 "lock": false
             },
             {
@@ -239,8 +239,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 146,
-                "mWidth": 120,
+                "dWidth": 40,
+                "mWidth": 46,
                 "lock": false
             },
             {
@@ -453,8 +453,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 146,
-                "mWidth": 120,
+                "dWidth": 40,
+                "mWidth": 46,
                 "lock": false
             },
             {

@@ -262,93 +262,6 @@
             ]
         },
         {
-            "name": "Premium",
-            "value": "24.01cr",
-            "lysmvalue": "18.11%",
-            "planvalue": "13.22%",
-            "iconvalue": "wallet",
-            "detailUrl": "/login/premium/detail",
-            "bgiconcolor": "sky-blue",
-            "columnname": [
-                {
-                    "colname": "name",
-                    "datatype": "string",
-                    "displayName": "NAME"
-                },
-                {
-                    "colname": "t-1",
-                    "datatype": "string",
-                    "displayName": "T-1"
-                },
-                {
-                    "colname": "ftd",
-                    "datatype": "string",
-                    "displayName": "FTD"
-                },
-                {
-                    "colname": "mtd",
-                    "datatype": "string",
-                    "displayName": "MTD"
-                },
-                {
-                    "colname": "ytd",
-                    "datatype": "string",
-                    "displayName": "YTD"
-                }
-            ],
-            "columndata": [
-                {
-                    "name": "Actual",
-                    "t-1": "60",
-                    "ftd": "112",
-                    "mtd": "50",
-                    "ytd": "27"
-                },
-                {
-                    "name": "Plan",
-                    "t-1": "-6",
-                    "ftd": "82",
-                    "mtd": "121",
-                    "ytd": "56"
-                },
-                {
-                    "name": "%",
-                    "t-1": "-",
-                    "ftd": "-",
-                    "mtd": "52%",
-                    "ytd": "30%"
-                },
-                {
-                    "name": "LYSM",
-                    "t-1": "145",
-                    "ftd": "-199",
-                    "mtd": "-63",
-                    "ytd": "87"
-                },
-                {
-                    "name": "LYSM%",
-                    "t-1": "-58%",
-                    "ftd": "50%",
-                    "mtd": "67%",
-                    "ytd": "-"
-                },
-                {
-                    "name": "LM",
-                    "t-1": "12",
-                    "ftd": "103",
-                    "mtd": "132",
-                    "ytd": "54"
-                },
-                {
-                    "name": "LM%",
-                    "t-1": "49%",
-                    "ftd": "144%",
-                    "mtd": "89%",
-                    "ytd": "50%"
-                }
-            ]
-        },
-        {
             "name": "NOP",
             "value": "18.1cr",
             "lysmvalue": "22.92%",
@@ -519,6 +432,93 @@
                     "ftd": "184%",
                     "mtd": "76%",
                     "ytd": "99%"
+                }
+            ]
+        },
+        {
+            "name": "Premium",
+            "value": "24.01cr",
+            "lysmvalue": "18.11%",
+            "planvalue": "13.22%",
+            "iconvalue": "wallet",
+            "detailUrl": "/login/premium/detail",
+            "bgiconcolor": "sky-blue",
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "60",
+                    "ftd": "112",
+                    "mtd": "50",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "-6",
+                    "ftd": "82",
+                    "mtd": "121",
+                    "ytd": "56"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-",
+                    "ftd": "-",
+                    "mtd": "52%",
+                    "ytd": "30%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "145",
+                    "ftd": "-199",
+                    "mtd": "-63",
+                    "ytd": "87"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-58%",
+                    "ftd": "50%",
+                    "mtd": "67%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "12",
+                    "ftd": "103",
+                    "mtd": "132",
+                    "ytd": "54"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "49%",
+                    "ftd": "144%",
+                    "mtd": "89%",
+                    "ytd": "50%"
                 }
             ]
         }
