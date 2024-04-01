@@ -1,0 +1,160 @@
+[
+    {
+        "title": "Bucket wise ageing",
+        "subtitle": "WIP",
+        "iconvalue": "wallet",
+        "bgiconcolor": "light-yellow",
+        "columnname": [
+            {
+                "colname": "overallpendingsummary",
+                "datatype": "string",
+                "displayName": "Overall Pending Summary",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "vippendingwithops",
+                "datatype": "string",
+                "displayName": "VIP Pending with Ops",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "pendingwsales",
+                "datatype": "string",
+                "displayName": "Pending With Sales",
+                "headercolor": "light-yellow"
+            }
+        ],
+        "columndata": [
+            {
+                "overallpendingsummary": "819202",
+                "vippendingwithops": "819203",
+                "pendingwsales": "982130"
+            }
+        ]
+    },
+    {
+        "title": "ROM wise - ageing",
+        "iconvalue": "copy",
+        "bgiconcolor": "light-green",
+        "columnname": [
+            {
+                "colname": "aepsubstatus",
+                "datatype": "string",
+                "displayName": "Aep - Sub Status",
+                "headercolor": "light-green"
+            },
+            {
+                "colname": "nopsubstatus",
+                "datatype": "string",
+                "displayName": "NOP - Sub Status",
+                "headercolor": "light-green"
+            },
+            {
+                "colname": "aeprom",
+                "datatype": "string",
+                "displayName": "AEP-ROM",
+                "headercolor": "light-yellow"
+            },
+            {
+                "colname": "noprom",
+                "datatype": "string",
+                "displayName": "NOP-ROM",
+                "headercolor": "light-yellow"
+            }
+        ],
+        "columndata": [
+            {
+                "aepsubstatus": "14.19%",
+                "nopsubstatus": "23.11%",
+                "aeprom": "12.10",
+                "noprom": "10.29%"
+            }
+        ]
+    },
+    {
+        "title": "Exectional Approval",
+        "subtitle": "Sales",
+        "iconvalue": "circle",
+        "bgiconcolor": "voilet",
+        "columnname": [
+            {
+                "colname": "overallsaleexceptionalsummary",
+                "datatype": "string",
+                "displayName": "Overall Sale Exceptional Summary",
+                "headercolor": "light-voilet"
+            },
+            {
+                "colname": "salesactionable",
+                "datatype": "string",
+                "displayName": "Sales actionable",
+                "headercolor": "light-voilet"
+            },
+            {
+                "colname": "opswip",
+                "datatype": "string",
+                "displayName": "Ops WIP",
+                "headercolor": "light-voilet"
+            },
+            {
+                "colname": "approved",
+                "datatype": "string",
+                "displayName": "Approved",
+                "headercolor": "light-voilet"
+            },
+            {
+                "colname": "rcu",
+                "datatype": "string",
+                "displayName": "RCU",
+                "headercolor": "light-voilet"
+            }
+        ],
+        "columndata": [
+            {
+                "overallsaleexceptionalsummary": "876171",
+                "salesactionable": "728129",
+                "opswip": "712920",
+                "approved": "81292",
+                "rcu": "81239"
+            }
+        ]
+    },
+    {
+        "title": "Medical Summary",
+        "iconvalue": "medical",
+        "bgiconcolor": "pink",
+        "columnname": [
+            {
+                "colname": "overallmdeicalsummary",
+                "datatype": "string",
+                "displayName": "Overall Medical Summary",
+                "headercolor": "light-pink"
+            },
+            {
+                "colname": "salesactionable",
+                "datatype": "string",
+                "displayName": "Sales actionable",
+                "headercolor": "light-pink"
+            },
+            {
+                "colname": "tpaactionable",
+                "datatype": "string",
+                "displayName": "TPA actionable",
+                "headercolor": "light-pink"
+            },
+            {
+                "colname": "opsactionable",
+                "datatype": "string",
+                "displayName": "Ops actionable",
+                "headercolor": "light-pink"
+            }
+        ],
+        "columndata": [
+            {
+                "overallmdeicalsummary": "876171",
+                "salesactionable": "728129",
+                "tpaactionable": "712920",
+                "opsactionable": "81292"
+            }
+        ]
+    }
+]

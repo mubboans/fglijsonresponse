@@ -1,0 +1,352 @@
+{
+    "login_date": {
+        "name": "Ageing (Today - Login date)",
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "status",
+                "datatype": "string",
+                "displayName": "Status",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "substatus",
+                "datatype": "string",
+                "displayName": "Sub Status",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "t-day",
+                "datatype": "object",
+                "displayName": "T-day",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false,
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                }
+            },
+            {
+                "colname": "t+1day",
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                },
+                "datatype": "object",
+                "displayName": "T+1 day",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "t+2days",
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                },
+                "datatype": "object",
+                "displayName": "T+2 day",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "3-5days",
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                },
+                "datatype": "object",
+                "displayName": "3-5 days",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "6-7days",
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                },
+                "datatype": "object",
+                "displayName": "6-7 days",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "8-10days",
+                "values": {
+                    "colvalue": "number",
+                    "colcolor": "string"
+                },
+                "datatype": "object",
+                "displayName": "8-10 days",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            }
+        ],
+        "detail": [
+            {
+                "id": 1,
+                "status": "Approved",
+                "substatus": "Pending PIVC",
+                "t-day": {
+                    "colvalue": 148.3,
+                    "colcolor": "light-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 141.3,
+                    "colcolor": "light-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 110.5,
+                    "colcolor": "yellow"
+                },
+                "3-5days": {
+                    "colvalue": 120.5,
+                    "colcolor": "yellow"
+                },
+                "6-7days": {
+                    "colvalue": 110.5,
+                    "colcolor": "dark-yellow"
+                },
+                "8-10days": {
+                    "colvalue": 148.5,
+                    "colcolor": "dark-yellow"
+                }
+            },
+            {
+                "id": 2,
+                "status": "Ops WIP",
+                "substatus": "Internal requirement",
+                "t-day": {
+                    "colvalue": 140,
+                    "colcolor": "dark-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 102.3,
+                    "colcolor": "yellow"
+                },
+                "t+2days": {
+                    "colvalue": 124.5,
+                    "colcolor": "dark-yellow"
+                },
+                "3-5days": {
+                    "colvalue": 112.8,
+                    "colcolor": "light-yellow"
+                },
+                "6-7days": {
+                    "colvalue": 110.6,
+                    "colcolor": "light-yellow"
+                },
+                "8-10days": {
+                    "colvalue": 121.9,
+                    "colcolor": "light-yellow"
+                }
+            },
+            {
+                "id": 3,
+                "status": "RCU",
+                "substatus": "Refer to field verification",
+                "t-day": {
+                    "colvalue": 143,
+                    "colcolor": "dark-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 120.9,
+                    "colcolor": "dark-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 134.5,
+                    "colcolor": "yellow"
+                },
+                "3-5days": {
+                    "colvalue": 139.3,
+                    "colcolor": "yellow"
+                },
+                "6-7days": {
+                    "colvalue": 106.7,
+                    "colcolor": "light-yellow"
+                },
+                "8-10days": {
+                    "colvalue": 124.7,
+                    "colcolor": "dark-yellow"
+                }
+            },
+            {
+                "id": 4,
+                "status": "Sales Actionable",
+                "substatus": "Medical",
+                "t-day": {
+                    "colvalue": 126.3,
+                    "colcolor": "dark-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 116.2,
+                    "colcolor": "dark-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 130.2,
+                    "colcolor": "light-yellow"
+                },
+                "3-5days": {
+                    "colvalue": 107.3,
+                    "colcolor": "dark-yellow"
+                },
+                "6-7days": {
+                    "colvalue": 135.7,
+                    "colcolor": "light-yellow"
+                },
+                "8-10days": {
+                    "colvalue": 132.9,
+                    "colcolor": "dark-yellow"
+                }
+            },
+            {
+                "id": 5,
+                "status": "",
+                "substatus": "Check resource",
+                "t-day": {
+                    "colvalue": 134.2,
+                    "colcolor": "light-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 135,
+                    "colcolor": "light-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 142.9,
+                    "colcolor": "dark-yellow"
+                },
+                "3-5days": {
+                    "colvalue": 104.6,
+                    "colcolor": "yellow"
+                },
+                "6-7days": {
+                    "colvalue": 129.8,
+                    "colcolor": "light-yellow"
+                },
+                "8-10days": {
+                    "colvalue": 146.8,
+                    "colcolor": "light-yellow"
+                }
+            },
+            {
+                "id": 6,
+                "status": "",
+                "substatus": "Medical + Income",
+                "t-day": {
+                    "colvalue": 149.6,
+                    "colcolor": "yellow"
+                },
+                "t+1day": {
+                    "colvalue": 103.2,
+                    "colcolor": "dark-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 126.1,
+                    "colcolor": "yellow"
+                },
+                "3-5days": {
+                    "colvalue": 126.8,
+                    "colcolor": "light-yellow"
+                },
+                "6-7days": {
+                    "colvalue": 117.9,
+                    "colcolor": "yellow"
+                },
+                "8-10days": {
+                    "colvalue": 102.1,
+                    "colcolor": "yellow"
+                }
+            },
+            {
+                "id": 7,
+                "status": "",
+                "substatus": "Income proof",
+                "t-day": {
+                    "colvalue": 126.5,
+                    "colcolor": "dark-yellow"
+                },
+                "t+1day": {
+                    "colvalue": 112.9,
+                    "colcolor": "light-yellow"
+                },
+                "t+2days": {
+                    "colvalue": 140.7,
+                    "colcolor": "dark-yellow"
+                },
+                "3-5days": {
+                    "colvalue": 115.4,
+                    "colcolor": "light-yellow"
+                },
+                "6-7days": {
+                    "colvalue": 137,
+                    "colcolor": "yellow"
+                },
+                "8-10days": {
+                    "colvalue": 143.3,
+                    "colcolor": "light-yellow"
+                }
+            },
+            {
+                "id": 8,
+                "status": "Grand Total",
+                "substatus": "",
+                "t-day": {
+                    "colvalue": 126.5,
+                    "highlight": "dark"
+                },
+                "t+1day": {
+                    "colvalue": 112.9,
+                    "colcolor": "light"
+                },
+                "t+2days": {
+                    "colvalue": 140.7,
+                    "colcolor": "medium"
+                },
+                "3-5days": {
+                    "colvalue": 115.4,
+                    "colcolor": "semi"
+                },
+                "6-7days": {
+                    "colvalue": "--",
+                    "colcolor": ""
+                },
+                "8-10days": {
+                    "colvalue": 143.3,
+                    "colcolor": "light-yellow"
+                }
+            }
+        ]
+    },
+    "last_pivc_date": {
+        "name": "Ageing (Today - Last PIVC date)",
+    },
+    "pending_for_receipt": {
+        "name": "Pending for receipting",
+    },
+    "tat": {
+        "name": "TAT",
+    },
+    "pending_tat": {
+        "name": "Pending TAT ageing(Today - Login)",
+    },
+    "premium_details": {
+        "name": "Premium Details",
+    }
+}

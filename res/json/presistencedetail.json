@@ -661,8 +661,8 @@
             }
         ]
     },
-    "summaryrd": {
-        "name": "CURRENT MONTH SUMMARY RD",
+    "summarysm": {
+        "name": "CURRENT MONTH SUMMARY SM",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
