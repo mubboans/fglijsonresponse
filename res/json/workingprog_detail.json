@@ -6,8 +6,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 146,
-                "mWidth": 120,
+                "dWidth": 90,
+                "mWidth": 90,
                 "lock": false
             },
             {

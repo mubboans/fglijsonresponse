@@ -8,6 +8,7 @@
             "iconvalue": "wallet",
             "detailUrl": "/login/premium/detail",
             "bgiconcolor": "sky-blue",
+            "isActive": true,
             "columnname": [
                 {
                     "colname": "name",
@@ -95,6 +96,7 @@
             "iconvalue": "account",
             "detailUrl": "/login/nop/detail",
             "bgiconcolor": "pink",
+            "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
@@ -182,6 +184,7 @@
             "iconvalue": "charger",
             "bgiconcolor": "purple",
             "detailUrl": "/login/nca/detail",
+            "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
@@ -269,6 +272,7 @@
             "iconvalue": "account",
             "detailUrl": "/login/nop/detail",
             "bgiconcolor": "pink",
+            "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
@@ -356,6 +360,7 @@
             "iconvalue": "charger",
             "bgiconcolor": "purple",
             "detailUrl": "/login/nca/detail",
+            "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
@@ -443,6 +448,7 @@
             "iconvalue": "wallet",
             "detailUrl": "/login/premium/detail",
             "bgiconcolor": "sky-blue",
+            "isActive": false,
             "columnname": [
                 {
                     "colname": "name",

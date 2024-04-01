@@ -1,6 +1,7 @@
 {
     "premium": {
         "name": "Premium Detail",
+        "headingcolour": "sky-blue",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -13,8 +14,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 40,
-                "mWidth": 46,
+                "dWidth": 90,
+                "mWidth": 90,
                 "lock": false
             },
             {
@@ -227,6 +228,7 @@
     },
     "nop": {
         "name": "NOP Detail",
+        "bgcolor": "pink",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -239,8 +241,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 40,
-                "mWidth": 46,
+                "dWidth": 90,
+                "mWidth": 90,
                 "lock": false
             },
             {
@@ -441,6 +443,7 @@
     },
     "nca": {
         "name": "NCA Detail",
+        "bgcolor": "purple",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -453,8 +456,8 @@
                 "colname": "id",
                 "datatype": "number",
                 "displayName": "Id",
-                "dWidth": 40,
-                "mWidth": 46,
+                "dWidth": 90,
+                "mWidth": 90,
                 "lock": false
             },
             {
