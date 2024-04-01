@@ -1,6 +1,7 @@
 {
     "persistency": {
         "name": "CURRENT MONTH PERSISTENCY",
+        "headingcolour": "sky-blue",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -332,6 +333,7 @@
     },
     "summaryrcd": {
         "name": "CURRENT MONTH SUMMARY RCD",
+        "headingcolour": "pink",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,
@@ -663,6 +665,7 @@
     },
     "summarysm": {
         "name": "CURRENT MONTH SUMMARY SM",
+        "headingcolour": "yellow",
         "pagingInfo": {
             "totalRecords": 61,
             "pageNo": 1,

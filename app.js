@@ -10,6 +10,8 @@ const product_mix = require('./res/json/product_mix.json');
 const stock = require('./res/json/stockdetail.json');
 const presistencecard = require('./res/json/presistencecard.json');
 const persdetail = require('./res/json/presistencedetail.json');
+const workinginprogress_card = require('./res/json/workingprog_card.json');
+const workdetail = require('./res/json/workingprog_detail.json');
 app.use(cors());
 route.get('/', (req, res) => {
     res.send({ message: 'working api', status: true }).status(200)
@@ -48,9 +50,16 @@ route.get('/presistence/summaryrcd/detail', (req, res) => {
     res.send(persdetail.summaryrcd).status(200);
 })
 route.get('/presistence/summarysm/detail', (req, res) => {
-    res.send(persdetail.summaryrd).status(200);
+    res.send(persdetail.summarysm).status(200);
 })
-
+route.get('/workinprogress/card', (req, res) => {
+    res.send(workinginprogress_card).status(200);
+});
+route.get('/workinprogress/detail', (req, res) => {
+    let { cardname } = req.query;
+    console.log(cardname, 'cardname');
+    res.send(workdetail[cardname]).status(200);
+})
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)

@@ -5,7 +5,7 @@
             "subtitle": "Current month",
             "iconvalue": "calendar",
             "detailUrl": "/presistence/presistence/detail",
-            "bgiconcolor": "#2C96F1",
+            "bgiconcolor": "sky-blue",
             "columnname": [
                 {
                     "colname": "name",
@@ -71,7 +71,7 @@
             "subtitle": "RCD level",
             "iconvalue": "hospital",
             "detailUrl": "/presistence/summaryrcd/detail",
-            "bgiconcolor": "#FF5660",
+            "bgiconcolor": "pink",
             "columnname": [
                 {
                     "colname": "name",
@@ -137,7 +137,7 @@
             "subtitle": "SM level",
             "iconvalue": "hospital",
             "detailUrl": "/presistence/summarysm/detail",
-            "bgiconcolor": "#FFA756",
+            "bgiconcolor": "yellow",
             "columnname": [
                 {
                     "colname": "name",
@@ -195,6 +195,72 @@
                     "name": "Cash Greene",
                     "nop": "136.2%",
                     "ape": "83.77%"
+                }
+            ]
+        },
+        {
+            "title": "Summary",
+            "subtitle": "RCD level",
+            "iconvalue": "hospital",
+            "detailUrl": "/presistence/summaryrcd/detail",
+            "bgiconcolor": "pink",
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "nop",
+                    "datatype": "string",
+                    "displayName": "NOP"
+                },
+                {
+                    "colname": "ape",
+                    "datatype": "string",
+                    "displayName": "APE"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Dunlap Cohen",
+                    "nop": "100.6%",
+                    "ape": "6.78%"
+                },
+                {
+                    "name": "Elinor James",
+                    "nop": "130.8%",
+                    "ape": "39.64%"
+                },
+                {
+                    "name": "Maribel Conner",
+                    "nop": "130.9%",
+                    "ape": "34.79%"
+                },
+                {
+                    "name": "Deirdre Lambert",
+                    "nop": "123.3%",
+                    "ape": "19.2%"
+                },
+                {
+                    "name": "Gale Santana",
+                    "nop": "108.5%",
+                    "ape": "46.81%"
+                },
+                {
+                    "name": "Mcconnell Harmon",
+                    "nop": "105.5%",
+                    "ape": "53.58%"
+                },
+                {
+                    "name": "Vilma Underwood",
+                    "nop": "135.1%",
+                    "ape": "44.49%"
+                },
+                {
+                    "name": "Lourdes Vance",
+                    "nop": "146.5%",
+                    "ape": "66.27%"
                 }
             ]
         }
