@@ -1,0 +1,552 @@
+{
+    "new_bussiness": {
+        "title": "New Bussiness",
+        "headingtitle": "black",
+        "iconvalue": "calendar",
+        "bgiconcolor": "black",
+        "subtitle": "24 Jan",
+        "chip": [
+            "Fresh Login",
+            "Pending Cases",
+            "PASA",
+            "New Leads"
+        ],
+        "freshlogin": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Delaney",
+                    "sumassured": "8004.5 K",
+                    "premium": 271380711365
+                },
+                {
+                    "id": 1,
+                    "name": "Pennington",
+                    "sumassured": "5888 K",
+                    "premium": 194914410998
+                },
+                {
+                    "id": 2,
+                    "name": "Fran",
+                    "sumassured": "7092.9 K",
+                    "premium": 103283311970
+                },
+                {
+                    "id": 3,
+                    "name": "Nicole",
+                    "sumassured": "8139.4 K",
+                    "premium": 301361711687
+                },
+                {
+                    "id": 4,
+                    "name": "Esmeralda",
+                    "sumassured": "3240.1 K",
+                    "premium": 66940609717
+                }
+            ]
+        },
+        "pending_case": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Horton",
+                    "sumassured": "2009.4 K",
+                    "premium": 88275269138
+                },
+                {
+                    "id": 1,
+                    "name": "Ollie",
+                    "sumassured": "1605.6 K",
+                    "premium": 254619211562
+                },
+                {
+                    "id": 2,
+                    "name": "Jackie",
+                    "sumassured": "1113.6 K",
+                    "premium": 227800012734
+                },
+                {
+                    "id": 3,
+                    "name": "Spencer",
+                    "sumassured": "9792.7 K",
+                    "premium": 96438489241
+                },
+                {
+                    "id": 4,
+                    "name": "Yvonne",
+                    "sumassured": "897.2 K",
+                    "premium": 793311011446
+                }
+            ]
+        },
+        "pasa": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Tamara",
+                    "sumassured": "8058 K",
+                    "premium": 899560611791
+                },
+                {
+                    "id": 1,
+                    "name": "Bradshaw",
+                    "sumassured": "175.9 K",
+                    "premium": 690886010857
+                },
+                {
+                    "id": 2,
+                    "name": "Gena",
+                    "sumassured": "7720.5 K",
+                    "premium": 404900211128
+                },
+                {
+                    "id": 3,
+                    "name": "Madeleine",
+                    "sumassured": "5423.3 K",
+                    "premium": 23228648751
+                },
+                {
+                    "id": 4,
+                    "name": "Ophelia",
+                    "sumassured": "8676.2 K",
+                    "premium": 357237211453
+                }
+            ]
+        },
+        "new_leads": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Margret",
+                    "sumassured": "4398.6 K",
+                    "premium": 52570689485
+                },
+                {
+                    "id": 1,
+                    "name": "Shelby",
+                    "sumassured": "8639.8 K",
+                    "premium": 732203510894
+                },
+                {
+                    "id": 2,
+                    "name": "Glover",
+                    "sumassured": "5222.2 K",
+                    "premium": 96068838716
+                },
+                {
+                    "id": 3,
+                    "name": "Gregory",
+                    "sumassured": "7165 K",
+                    "premium": 60735108367
+                },
+                {
+                    "id": 4,
+                    "name": "Lea",
+                    "sumassured": "1800.8 K",
+                    "premium": 975843810365
+                }
+            ]
+        }
+    },
+    "renewals": {
+        "title": "Renewals",
+        "headingtitle": "black",
+        "iconvalue": "calendar",
+        "bgiconcolor": "black",
+        "subtitle": "30 Jan",
+        "chip": [
+            "Renewable",
+            "Lapsed",
+            "Revivals"
+        ],
+        "renewable": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Lester",
+                    "sumassured": "369.7 K",
+                    "premium": 478776810954
+                },
+                {
+                    "id": 1,
+                    "name": "Kate",
+                    "sumassured": "6031.5 K",
+                    "premium": 142617510912
+                },
+                {
+                    "id": 2,
+                    "name": "Deirdre",
+                    "sumassured": "2630.2 K",
+                    "premium": 802219512190
+                },
+                {
+                    "id": 3,
+                    "name": "Bass",
+                    "sumassured": "840.5 K",
+                    "premium": 45738818403
+                },
+                {
+                    "id": 4,
+                    "name": "Mitzi",
+                    "sumassured": "1375.9 K",
+                    "premium": 736143210353
+                }
+            ]
+        },
+        "lapsed": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Petersen",
+                    "sumassured": "7207 K",
+                    "premium": 26536668300
+                },
+                {
+                    "id": 1,
+                    "name": "Castro",
+                    "sumassured": "6582.4 K",
+                    "premium": 68018359626
+                },
+                {
+                    "id": 2,
+                    "name": "Ferrell",
+                    "sumassured": "2815.5 K",
+                    "premium": 106142712349
+                },
+                {
+                    "id": 3,
+                    "name": "Buck",
+                    "sumassured": "6090.7 K",
+                    "premium": 30549878341
+                },
+                {
+                    "id": 4,
+                    "name": "Lucille",
+                    "sumassured": "3038.3 K",
+                    "premium": 23378379836
+                }
+            ]
+        },
+        "revivals": {
+            "pagingInfo": {
+                "totalRecords": 61,
+                "pageNo": 1,
+                "pageSize": 5,
+                "recordCount": 5,
+                "noOfPages": 13
+            },
+            "columnname": [
+                {
+                    "colname": "id",
+                    "datatype": "number",
+                    "displayName": "Id",
+                    "dWidth": 90,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": true
+                },
+                {
+                    "colname": "sumassured",
+                    "datatype": "string",
+                    "displayName": "Name",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                },
+                {
+                    "colname": "premium",
+                    "datatype": "string",
+                    "displayName": "Premium",
+                    "dWidth": 146,
+                    "mWidth": 120,
+                    "lock": false
+                }
+            ],
+            "detail": [
+                {
+                    "id": 0,
+                    "name": "Dodson",
+                    "sumassured": "5351.9 K",
+                    "premium": 719221310576
+                },
+                {
+                    "id": 1,
+                    "name": "Benita",
+                    "sumassured": "4105.1 K",
+                    "premium": 21388029589
+                },
+                {
+                    "id": 2,
+                    "name": "Sarah",
+                    "sumassured": "8994.5 K",
+                    "premium": 195226511783
+                },
+                {
+                    "id": 3,
+                    "name": "Holland",
+                    "sumassured": "7258.4 K",
+                    "premium": 95580719084
+                },
+                {
+                    "id": 4,
+                    "name": "Kenya",
+                    "sumassured": "8612.3 K",
+                    "premium": 213164711015
+                }
+            ]
+        }
+    }
+}

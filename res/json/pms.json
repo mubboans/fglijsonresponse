@@ -1,0 +1,429 @@
+    {
+        "personal_information": {
+            "title": "Personal Information",
+            "headingcolor": "black",
+            "iconvalue": "account",
+            "bgiconcolor": "yellow",
+            "columnname": [
+                {
+                    "colname": "code",
+                    "datatype": "string",
+                    "displayName": "Code"
+                },
+                {
+                    "colname": "month",
+                    "datatype": "string",
+                    "displayName": "Month"
+                },
+                {
+                    "colname": "designation",
+                    "datatype": "string",
+                    "displayName": "Designation"
+                },
+                {
+                    "colname": "gsstartdate",
+                    "datatype": "string",
+                    "displayName": "GS start date"
+                },
+                {
+                    "colname": "gsvintage",
+                    "datatype": "string",
+                    "displayName": "GS vintage"
+                },
+                {
+                    "colname": "ic38",
+                    "datatype": "string",
+                    "displayName": "IC38"
+                },
+                {
+                    "colname": "fgrockstar",
+                    "datatype": "string",
+                    "displayName": "FG rockstar"
+                },
+                {
+                    "colname": "pepstatus",
+                    "datatype": "string",
+                    "displayName": "PEP status"
+                },
+                {
+                    "colname": "promotioneligibility",
+                    "datatype": "string",
+                    "displayName": "Promotion eligibility"
+                }
+            ],
+            "columndata": [
+                {
+                    "code": "819889",
+                    "month": "March",
+                    "designation": "Sale Manager",
+                    "gsstartdate": "March 1,2024",
+                    "gsvintage": "M12",
+                    "ic38": "No data",
+                    "fgrockstar": "Pending",
+                    "pepstatus": "WFYP",
+                    "promotioneligibility": "Not Eligible"
+                }
+            ]
+        },
+        "kpi_regular": {
+            "title": "KPI regular",
+            "headingcolor": "black",
+            "iconvalue": "dashboard ",
+            "bgiconcolor": "sky-blue",
+            "cards": [
+                {
+                    "title": "MTD performance",
+                    "headingcolor": "black",
+                    "iconvalue": "medical ",
+                    "bgiconcolor": "yellow",
+                    "columnname": [
+                        {
+                            "colname": "data",
+                            "datatype": "string",
+                            "displayName": "Data"
+                        },
+                        {
+                            "colname": "tar",
+                            "datatype": "string",
+                            "displayName": "TAR"
+                        },
+                        {
+                            "colname": "ach",
+                            "datatype": "string",
+                            "displayName": "ACH"
+                        },
+                        {
+                            "colname": "ach%",
+                            "datatype": "string",
+                            "displayName": "ACH%"
+                        },
+                        {
+                            "colname": "wtd%",
+                            "datatype": "string",
+                            "displayName": "WTD%"
+                        }
+                    ],
+                    "columndata": [
+                        {
+                            "data": "WFYP",
+                            "tar": "11,213,12",
+                            "ach": "1,199,29",
+                            "ach%": "-15.12%",
+                            "wtd%": "12.12%"
+                        },
+                        {
+                            "data": "NCA",
+                            "tar": "1,213,12",
+                            "ach": "112,199,291",
+                            "ach%": "23.12%",
+                            "wtd%": "-22.12%"
+                        },
+                        {
+                            "data": "ACMM",
+                            "tar": "1,213",
+                            "ach": "119",
+                            "ach%": "-20.12%",
+                            "wtd%": "50.12%"
+                        },
+                        {
+                            "data": "-",
+                            "tar": "11,213",
+                            "ach": "1,1924",
+                            "ach%": "-40.12%",
+                            "wtd%": "-12.12%"
+                        },
+                        {
+                            "MTD score": "38%"
+                        }
+                    ]
+                },
+                {
+                    "title": "YTD performance",
+                    "headingcolor": "black",
+                    "iconvalue": "calendar ",
+                    "bgiconcolor": "green",
+                    "columnname": [
+                        {
+                            "colname": "data",
+                            "datatype": "string",
+                            "displayName": "Data"
+                        },
+                        {
+                            "colname": "tar",
+                            "datatype": "string",
+                            "displayName": "TAR"
+                        },
+                        {
+                            "colname": "ach",
+                            "datatype": "string",
+                            "displayName": "ACH"
+                        },
+                        {
+                            "colname": "ach%",
+                            "datatype": "string",
+                            "displayName": "ACH%"
+                        },
+                        {
+                            "colname": "wtd%",
+                            "datatype": "string",
+                            "displayName": "WTD%"
+                        }
+                    ],
+                    "columndata": [
+                        {
+                            "data": "WFYP",
+                            "tar": "10,203,02",
+                            "ach": "2,109,09",
+                            "ach%": "-12.12%",
+                            "wtd%": "-19.12%"
+                        },
+                        {
+                            "data": "NCA",
+                            "tar": "1,213,12",
+                            "ach": "112,199,291",
+                            "ach%": "23.12%",
+                            "wtd%": "-22.12%"
+                        },
+                        {
+                            "data": "ACMM",
+                            "tar": "1,213",
+                            "ach": "119",
+                            "ach%": "-20.12%",
+                            "wtd%": "50.12%"
+                        },
+                        {
+                            "data": "-",
+                            "tar": "11,213",
+                            "ach": "1,1924",
+                            "ach%": "-40.12%",
+                            "wtd%": "-12.12%"
+                        },
+                        {
+                            "YTD score": "38%"
+                        }
+                    ]
+                },
+                {
+                    "title": "GTD performance",
+                    "headingcolor": "black",
+                    "iconvalue": "hospital",
+                    "bgiconcolor": "voilet",
+                    "columnname": [
+                        {
+                            "colname": "data",
+                            "datatype": "string",
+                            "displayName": "Data"
+                        },
+                        {
+                            "colname": "tar",
+                            "datatype": "string",
+                            "displayName": "TAR"
+                        },
+                        {
+                            "colname": "ach",
+                            "datatype": "string",
+                            "displayName": "ACH"
+                        },
+                        {
+                            "colname": "ach%",
+                            "datatype": "string",
+                            "displayName": "ACH%"
+                        },
+                        {
+                            "colname": "wtd%",
+                            "datatype": "string",
+                            "displayName": "WTD%"
+                        }
+                    ],
+                    "columndata": [
+                        {
+                            "data": "WFYP",
+                            "tar": "10,203,02",
+                            "ach": "2,109,09",
+                            "ach%": "-12.12%",
+                            "wtd%": "-19.12%"
+                        },
+                        {
+                            "data": "NCA",
+                            "tar": "1,213,12",
+                            "ach": "112,199,291",
+                            "ach%": "23.12%",
+                            "wtd%": "-22.12%"
+                        },
+                        {
+                            "data": "ACMM",
+                            "tar": "1,213",
+                            "ach": "119",
+                            "ach%": "-20.12%",
+                            "wtd%": "50.12%"
+                        },
+                        {
+                            "data": "-",
+                            "tar": "11,213",
+                            "ach": "1,1924",
+                            "ach%": "-40.12%",
+                            "wtd%": "-12.12%"
+                        },
+                        {
+                            "GTD score": "58%"
+                        }
+                    ]
+                }
+            ]
+        },
+        "others": [
+            {
+                "title": "KPI porbation",
+                "headingcolor": "black",
+                "iconvalue": "membership",
+                "bgiconcolor": "red",
+                "columnname": [
+                    {
+                        "colname": "data",
+                        "datatype": "string",
+                        "displayName": "Data"
+                    },
+                    {
+                        "colname": "wfyp",
+                        "datatype": "string",
+                        "displayName": "WFYP"
+                    },
+                    {
+                        "colname": "nca",
+                        "datatype": "string",
+                        "displayName": "NCA"
+                    }
+                ],
+                "columndata": [
+                    {
+                        "data": "TAR",
+                        "wfyp": "11,213,12",
+                        "nca": "1,199,29"
+                    },
+                    {
+                        "data": "Shortfall",
+                        "wfyp": "11,213,12",
+                        "nca": "1,199,29"
+                    },
+                    {
+                        "data": "ACH%",
+                        "wfyp": "-11.21",
+                        "nca": "12.12"
+                    },
+                    {
+                        "data": "ACH",
+                        "wfyp": "11,213,12",
+                        "nca": "1,199,29"
+                    }
+                ]
+            },
+            {
+                "title": "Persistency criteria",
+                "headingcolor": "black",
+                "iconvalue": "membership",
+                "bgiconcolor": "sky-blue",
+                "columnname": [
+                    {
+                        "colname": "data",
+                        "datatype": "string",
+                        "displayName": "Data"
+                    },
+                    {
+                        "colname": "tar",
+                        "datatype": "string",
+                        "displayName": "TAR"
+                    },
+                    {
+                        "colname": "ach%",
+                        "datatype": "string",
+                        "displayName": "ACH%"
+                    },
+                    {
+                        "colname": "ach",
+                        "datatype": "string",
+                        "displayName": "ACH"
+                    }
+                ],
+                "columndata": [
+                    {
+                        "data": "13M",
+                        "tar": "11,213,12",
+                        "ach": "1,199,29",
+                        "ach%": "-11.99"
+                    },
+                    {
+                        "data": "24M",
+                        "tar": "23,112",
+                        "ach": "999",
+                        "ach%": "-13.99"
+                    },
+                    {
+                        "data": "36M",
+                        "ach%": "40.21",
+                        "tar": "17232",
+                        "ach": "12312"
+                    },
+                    {
+                        "data": "54M",
+                        "ach%": "10.21",
+                        "tar": "27232",
+                        "ach": "2312"
+                    }
+                ]
+            },
+            {
+                "title": "Shortfall",
+                "headingcolor": "black",
+                "iconvalue": "calendar",
+                "bgiconcolor": "pink",
+                "columnname": [
+                    {
+                        "colname": "data",
+                        "datatype": "string",
+                        "displayName": "Data"
+                    },
+                    {
+                        "colname": "tar",
+                        "datatype": "string",
+                        "displayName": "TAR"
+                    },
+                    {
+                        "colname": "ach%",
+                        "datatype": "string",
+                        "displayName": "ACH%"
+                    },
+                    {
+                        "colname": "ach",
+                        "datatype": "string",
+                        "displayName": "ACH"
+                    }
+                ],
+                "columndata": [
+                    {
+                        "data": "NCA",
+                        "tar": "11,213,12",
+                        "ach": "1,199,29",
+                        "ach%": "-17.99"
+                    },
+                    {
+                        "data": "WFYP",
+                        "tar": "45,678",
+                        "ach": "34,567",
+                        "ach%": "51.99"
+                    },
+                    {
+                        "data": "ACMM",
+                        "tar": "63,281",
+                        "ach": "34,571",
+                        "ach%": "-21.99"
+                    },
+                    {
+                        "data": "Agent Share",
+                        "tar": "740",
+                        "ach": "1571",
+                        "ach%": "-21.99"
+                    }
+                ]
+            }
+        ]
+    }

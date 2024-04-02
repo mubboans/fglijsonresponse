@@ -12,53 +12,70 @@ const presistencecard = require('./res/json/presistencecard.json');
 const persdetail = require('./res/json/presistencedetail.json');
 const workinginprogress_card = require('./res/json/workingprog_card.json');
 const workdetail = require('./res/json/workingprog_detail.json');
+const pmscard = require('./res/json/pms.json');
+const state_oppurtunity = require('./res/json/statement_oppurtunity.json');
 app.use(cors());
 route.get('/', (req, res) => {
-    res.send({ message: 'working api', status: true }).status(200)
+    return res.send({ message: 'working api', status: true }).status(200)
 })
 route.get('/login/card', (req, res) => {
-    res.send(carddetail).status(200)
+    return res.send(carddetail).status(200)
 })
 
 route.get('/login/premium/detail', (req, res) => {
     const tabdetail = tabledetail.premium;
-    res.send(tabdetail).status(200);
+    return res.send(tabdetail).status(200);
 })
 
 route.get('/login/nop/detail', (req, res) => {
     const tabdetail = tabledetail.nop;
-    res.send(tabdetail).status(200);
+    return res.send(tabdetail).status(200);
 })
 
 route.get('/login/nca/detail', (req, res) => {
     const tabdetail = tabledetail.nca;
-    res.send(tabdetail).status(200);
+    return res.send(tabdetail).status(200);
 })
 route.get('/login/productmix/detail', (req, res) => {
-    res.send(product_mix).status(200);
+    return res.send(product_mix).status(200);
 })
 route.get('/leakage/stock/detail', (req, res) => {
-    res.send(stock).status(200);
+    return res.send(stock).status(200);
 })
 route.get('/presistence/card', (req, res) => {
-    res.send(presistencecard).status(200);
+    return res.send(presistencecard).status(200);
 })
 route.get('/presistence/presistence/detail', (req, res) => {
-    res.send(persdetail.persistency).status(200);
+    return res.send(persdetail.persistency).status(200);
 })
 route.get('/presistence/summaryrcd/detail', (req, res) => {
-    res.send(persdetail.summaryrcd).status(200);
+    return res.send(persdetail.summaryrcd).status(200);
 })
 route.get('/presistence/summarysm/detail', (req, res) => {
-    res.send(persdetail.summarysm).status(200);
+    return res.send(persdetail.summarysm).status(200);
 })
 route.get('/workinprogress/card', (req, res) => {
-    res.send(workinginprogress_card).status(200);
+    return res.send(workinginprogress_card).status(200);
 });
 route.get('/workinprogress/detail', (req, res) => {
-    let { cardname } = req.query;
+    let { tabname } = req.query;
+    if (!tabname) return res.status(400).send("table name required")
+    console.log(tabname, 'cardname');
+    return res.send(workdetail[tabname]).status(200);
+})
+
+route.get('/pms/cards', (req, res) => {
+    const { cardname } = req?.query;
+    if (!cardname) return res.status(400).send("Card name required")
     console.log(cardname, 'cardname');
-    res.send(workdetail[cardname]).status(200);
+    return res.send(pmscard[cardname]).status(200);
+})
+
+route.get('/statement/detail', (req, res) => {
+    const { tabname } = req?.query;
+    if (!tabname) return res.status(404).send("Tab name is required");
+    console.log(tabname, 'tabname');
+    return res.send(state_oppurtunity[tabname]).status(200);
 })
 
 app.listen(port, () => {
