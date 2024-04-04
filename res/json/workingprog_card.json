@@ -7,28 +7,37 @@
         "columnname": [
             {
                 "colname": "overallpendingsummary",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Overall Pending Summary",
                 "headercolor": "light-yellow"
             },
             {
-                "colname": "vippendingwithops",
-                "datatype": "string",
-                "displayName": "VIP Pending with Ops",
+                "colname": "wippendingwithops",
+                "datatype": "object",
+                "displayName": "WIP Pending with Ops",
                 "headercolor": "light-yellow"
             },
             {
                 "colname": "pendingwsales",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Pending With Sales",
                 "headercolor": "light-yellow"
             }
         ],
         "columndata": [
             {
-                "overallpendingsummary": "819202",
-                "vippendingwithops": "819203",
-                "pendingwsales": "982130"
+                "overallpendingsummary": {
+                    "value": "819202",
+                    "percentage": ""
+                },
+                "wippendingwithops": {
+                    "value": "819203",
+                    "perentage": "86%"
+                },
+                "pendingwsales": {
+                    "value": "982130",
+                    "percentage": "-10%"
+                }
             }
         ]
     },
@@ -79,42 +88,57 @@
         "columnname": [
             {
                 "colname": "overallsaleexceptionalsummary",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Overall Sale Exceptional Summary",
                 "headercolor": "light-voilet"
             },
             {
                 "colname": "salesactionable",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Sales actionable",
                 "headercolor": "light-voilet"
             },
             {
                 "colname": "opswip",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Ops WIP",
                 "headercolor": "light-voilet"
             },
             {
                 "colname": "approved",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "Approved",
                 "headercolor": "light-voilet"
             },
             {
                 "colname": "rcu",
-                "datatype": "string",
+                "datatype": "object",
                 "displayName": "RCU",
                 "headercolor": "light-voilet"
             }
         ],
         "columndata": [
             {
-                "overallsaleexceptionalsummary": "876171",
-                "salesactionable": "728129",
-                "opswip": "712920",
-                "approved": "81292",
-                "rcu": "81239"
+                "overallsaleexceptionalsummary": {
+                    "value": "876171",
+                    "percentage": "40%"
+                },
+                "salesactionable": {
+                    "value": "728129",
+                    "percentage": "40%"
+                },
+                "opswip": {
+                    "value": "712920",
+                    "percentage": "40%"
+                },
+                "approved": {
+                    "value": "728129",
+                    "percentage": "40%"
+                },
+                "rcu": {
+                    "value": "81239",
+                    "percentage": "40%"
+                }
             }
         ]
     },
