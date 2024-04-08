@@ -1,0 +1,708 @@
+{
+    "card": [
+        {
+            "name": "Premium",
+            "value": "24.01cr",
+            "lysmvalue": "18.11%",
+            "planvalue": "13.22%",
+            "iconvalue": "wallet",
+            "detailUrl": "/login/premium/detail",
+            "bgiconcolor": "sky-blue",
+            "isActive": true,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "60",
+                    "ftd": "112",
+                    "mtd": "50",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "-6",
+                    "ftd": "82",
+                    "mtd": "121",
+                    "ytd": "56"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-",
+                    "ftd": "-",
+                    "mtd": "52%",
+                    "ytd": "30%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "145",
+                    "ftd": "-199",
+                    "mtd": "-63",
+                    "ytd": "87"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-58%",
+                    "ftd": "50%",
+                    "mtd": "67%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "12",
+                    "ftd": "103",
+                    "mtd": "132",
+                    "ytd": "54"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "49%",
+                    "ftd": "144%",
+                    "mtd": "89%",
+                    "ytd": "50%"
+                }
+            ]
+        },
+        {
+            "name": "NOP",
+            "value": "18.1cr",
+            "lysmvalue": "22.92%",
+            "planvalue": "24.54%",
+            "iconvalue": "account",
+            "detailUrl": "/login/nop/detail",
+            "bgiconcolor": "pink",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "78",
+                    "ftd": "197",
+                    "mtd": "119",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "39",
+                    "ftd": "189",
+                    "mtd": "91",
+                    "ytd": "76"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-77%",
+                    "ftd": "-",
+                    "mtd": "131%",
+                    "ytd": "72%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "-58",
+                    "ftd": "52",
+                    "mtd": "63",
+                    "ytd": "70"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "53%",
+                    "ftd": "169%",
+                    "mtd": "65%",
+                    "ytd": "56%"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "97",
+                    "ftd": "188",
+                    "mtd": "81",
+                    "ytd": "61"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "-96",
+                    "ftd": "68%",
+                    "mtd": "98%",
+                    "ytd": "66%"
+                }
+            ]
+        },
+        {
+            "name": "NCA",
+            "value": "213cr",
+            "lysmvalue": "19.82%",
+            "planvalue": "22.20%",
+            "iconvalue": "charger",
+            "bgiconcolor": "purple",
+            "detailUrl": "/login/nca/detail",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "200",
+                    "ftd": "142",
+                    "mtd": "127",
+                    "ytd": "79"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "17",
+                    "ftd": "193",
+                    "mtd": "128",
+                    "ytd": "45"
+                },
+                {
+                    "name": "%",
+                    "t-1": "68%",
+                    "ftd": "91%",
+                    "mtd": "104%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "-75",
+                    "ftd": "188",
+                    "mtd": "113",
+                    "ytd": "19"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-12%",
+                    "ftd": "69%",
+                    "mtd": "110%",
+                    "ytd": "87%"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "-43",
+                    "ftd": "137",
+                    "mtd": "81",
+                    "ytd": "43"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "66%",
+                    "ftd": "184%",
+                    "mtd": "76%",
+                    "ytd": "99%"
+                }
+            ]
+        },
+        {
+            "name": "ATS",
+            "value": "18.1cr",
+            "lysmvalue": "22.92%",
+            "planvalue": "24.54%",
+            "iconvalue": "account",
+            "detailUrl": "/login/nop/detail",
+            "bgiconcolor": "pink",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "78",
+                    "ftd": "197",
+                    "mtd": "119",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "39",
+                    "ftd": "189",
+                    "mtd": "91",
+                    "ytd": "76"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-77%",
+                    "ftd": "-",
+                    "mtd": "131%",
+                    "ytd": "72%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "-58",
+                    "ftd": "52",
+                    "mtd": "63",
+                    "ytd": "70"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "53%",
+                    "ftd": "169%",
+                    "mtd": "65%",
+                    "ytd": "56%"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "97",
+                    "ftd": "188",
+                    "mtd": "81",
+                    "ytd": "61"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "-96",
+                    "ftd": "68%",
+                    "mtd": "98%",
+                    "ytd": "66%"
+                }
+            ]
+        },
+        {
+            "name": "Activation",
+            "value": "213cr",
+            "lysmvalue": "19.82%",
+            "planvalue": "22.20%",
+            "iconvalue": "charger",
+            "bgiconcolor": "purple",
+            "detailUrl": "/login/activation/detail",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "200",
+                    "ftd": "142",
+                    "mtd": "127",
+                    "ytd": "79"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "17",
+                    "ftd": "193",
+                    "mtd": "128",
+                    "ytd": "45"
+                },
+                {
+                    "name": "%",
+                    "t-1": "68%",
+                    "ftd": "91%",
+                    "mtd": "104%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "-75",
+                    "ftd": "188",
+                    "mtd": "113",
+                    "ytd": "19"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-12%",
+                    "ftd": "69%",
+                    "mtd": "110%",
+                    "ytd": "87%"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "-43",
+                    "ftd": "137",
+                    "mtd": "81",
+                    "ytd": "43"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "66%",
+                    "ftd": "184%",
+                    "mtd": "76%",
+                    "ytd": "99%"
+                }
+            ]
+        },
+        {
+            "name": "New Coding",
+            "value": "24.01cr",
+            "lysmvalue": "18.11%",
+            "planvalue": "13.22%",
+            "iconvalue": "wallet",
+            "detailUrl": "/login/premium/detail",
+            "bgiconcolor": "sky-blue",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "60",
+                    "ftd": "112",
+                    "mtd": "50",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "-6",
+                    "ftd": "82",
+                    "mtd": "121",
+                    "ytd": "56"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-",
+                    "ftd": "-",
+                    "mtd": "52%",
+                    "ytd": "30%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "145",
+                    "ftd": "-199",
+                    "mtd": "-63",
+                    "ytd": "87"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-58%",
+                    "ftd": "50%",
+                    "mtd": "67%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "12",
+                    "ftd": "103",
+                    "mtd": "132",
+                    "ytd": "54"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "49%",
+                    "ftd": "144%",
+                    "mtd": "89%",
+                    "ytd": "50%"
+                }
+            ]
+        },
+        {
+            "name": "MDRT",
+            "value": "24.01cr",
+            "lysmvalue": "18.11%",
+            "planvalue": "13.22%",
+            "iconvalue": "wallet",
+            "detailUrl": "/login/premium/detail",
+            "bgiconcolor": "sky-blue",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "60",
+                    "ftd": "112",
+                    "mtd": "50",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "-6",
+                    "ftd": "82",
+                    "mtd": "121",
+                    "ytd": "56"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-",
+                    "ftd": "-",
+                    "mtd": "52%",
+                    "ytd": "30%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "145",
+                    "ftd": "-199",
+                    "mtd": "-63",
+                    "ytd": "87"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-58%",
+                    "ftd": "50%",
+                    "mtd": "67%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "12",
+                    "ftd": "103",
+                    "mtd": "132",
+                    "ytd": "54"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "49%",
+                    "ftd": "144%",
+                    "mtd": "89%",
+                    "ytd": "50%"
+                }
+            ]
+        },
+        {
+            "name": "One Look (All KPI)",
+            "value": "24.01cr",
+            "lysmvalue": "10.11%",
+            "planvalue": "3.22%",
+            "iconvalue": "wallet",
+            "detailUrl": "/login/premium/detail",
+            "bgiconcolor": "sky-blue",
+            "isActive": false,
+            "columnname": [
+                {
+                    "colname": "name",
+                    "datatype": "string",
+                    "displayName": "NAME"
+                },
+                {
+                    "colname": "t-1",
+                    "datatype": "string",
+                    "displayName": "T-1"
+                },
+                {
+                    "colname": "ftd",
+                    "datatype": "string",
+                    "displayName": "FTD"
+                },
+                {
+                    "colname": "mtd",
+                    "datatype": "string",
+                    "displayName": "MTD"
+                },
+                {
+                    "colname": "ytd",
+                    "datatype": "string",
+                    "displayName": "YTD"
+                }
+            ],
+            "columndata": [
+                {
+                    "name": "Actual",
+                    "t-1": "60",
+                    "ftd": "112",
+                    "mtd": "50",
+                    "ytd": "27"
+                },
+                {
+                    "name": "Plan",
+                    "t-1": "-6",
+                    "ftd": "82",
+                    "mtd": "121",
+                    "ytd": "56"
+                },
+                {
+                    "name": "%",
+                    "t-1": "-",
+                    "ftd": "-",
+                    "mtd": "52%",
+                    "ytd": "30%"
+                },
+                {
+                    "name": "LYSM",
+                    "t-1": "145",
+                    "ftd": "-199",
+                    "mtd": "-63",
+                    "ytd": "87"
+                },
+                {
+                    "name": "LYSM%",
+                    "t-1": "-58%",
+                    "ftd": "50%",
+                    "mtd": "67%",
+                    "ytd": "-"
+                },
+                {
+                    "name": "LM",
+                    "t-1": "12",
+                    "ftd": "103",
+                    "mtd": "132",
+                    "ytd": "54"
+                },
+                {
+                    "name": "LM%",
+                    "t-1": "49%",
+                    "ftd": "144%",
+                    "mtd": "89%",
+                    "ytd": "50%"
+                }
+            ]
+        }
+    ]
+}
