@@ -265,7 +265,7 @@
             ]
         },
         {
-            "name": "NOP",
+            "name": "Activation",
             "value": "18.1cr",
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
@@ -353,7 +353,7 @@
             ]
         },
         {
-            "name": "NCA",
+            "name": "ATS",
             "value": "213cr",
             "lysmvalue": "19.82%",
             "planvalue": "22.20%",
@@ -441,7 +441,7 @@
             ]
         },
         {
-            "name": "Premium",
+            "name": "New Coding",
             "value": "24.01cr",
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
