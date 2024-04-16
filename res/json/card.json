@@ -2,7 +2,7 @@
     "card": [
         {
             "name": "Premium",
-            "value": "24.01cr",
+            "value": "24,00,00,000",
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
@@ -90,7 +90,7 @@
         },
         {
             "name": "NOP",
-            "value": "18.1cr",
+            "value": "18,10,00,000",
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
@@ -178,7 +178,7 @@
         },
         {
             "name": "NCA",
-            "value": "213cr",
+            "value": "213,00,00,000",
             "lysmvalue": "19.82%",
             "planvalue": "22.20%",
             "iconvalue": "charger",
@@ -266,7 +266,7 @@
         },
         {
             "name": "Activation",
-            "value": "18.1cr",
+            "value": "18,10,00,000",
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
@@ -354,7 +354,7 @@
         },
         {
             "name": "ATS",
-            "value": "213cr",
+            "value": "21,20,20,300",
             "lysmvalue": "19.82%",
             "planvalue": "22.20%",
             "iconvalue": "charger",
@@ -442,7 +442,7 @@
         },
         {
             "name": "New Coding",
-            "value": "24.01cr",
+            "value": "24,10,10,020",
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
