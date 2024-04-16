@@ -6,7 +6,7 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
-            "detailUrl": "/login/detail?name=premium",
+            "detailUrl": "/issuance/detail?tabname=premium",
             "bgiconcolor": "sky-blue",
             "isActive": true,
             "columnname": [
@@ -94,7 +94,7 @@
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
-            "detailUrl": "/login/detail?name=nop",
+            "detailUrl": "/issuance/detail?tabname=nop",
             "bgiconcolor": "pink",
             "isActive": false,
             "columnname": [
@@ -183,7 +183,7 @@
             "planvalue": "22.20%",
             "iconvalue": "charger",
             "bgiconcolor": "purple",
-            "detailUrl": "/login/detail?name=nca",
+            "detailUrl": "/issuance/detail?tabname=nca",
             "isActive": false,
             "columnname": [
                 {
@@ -270,7 +270,7 @@
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
-            "detailUrl": "/login/detail?name=activation",
+            "detailUrl": "/issuance/detail?tabname=activation",
             "bgiconcolor": "pink",
             "isActive": false,
             "columnname": [
@@ -359,7 +359,7 @@
             "planvalue": "22.20%",
             "iconvalue": "charger",
             "bgiconcolor": "purple",
-            "detailUrl": "/login/detail?name=ats",
+            "detailUrl": "/issuance/detail?tabname=ats",
             "isActive": false,
             "columnname": [
                 {
@@ -446,7 +446,7 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
-            "detailUrl": "/login/detail?name=newcoding",
+            "detailUrl": "/issuance/detail?tabname=newcoding",
             "bgiconcolor": "sky-blue",
             "isActive": false,
             "columnname": [

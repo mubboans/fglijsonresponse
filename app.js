@@ -14,6 +14,8 @@ const workinginprogress_card = require('./res/json/workingprog_card.json');
 const workdetail = require('./res/json/workingprog_detail.json');
 const pmscard = require('./res/json/pms.json');
 const state_oppurtunity = require('./res/json/statement_oppurtunity.json');
+const issuance_card = require('./res/json/issuance_card.json');
+const issuance_detail = require('./res/json/issuance_detail.json');
 app.use(cors());
 route.get('/', (req, res) => {
     return res.send({ message: 'working api', status: true }).status(200)
@@ -78,8 +80,18 @@ route.get('/statement/detail', (req, res) => {
     return res.send(state_oppurtunity[tabname]).status(200);
 })
 
+route.get('/issuance/card', (req, res) => {
+    res.send(issuance_card).status(200);
+})
+
+route.get('/issuance/detail', (req, res) => {
+    const { tabname } = req?.query;
+    if (!tabname) return res.status(404).send("Tab name is required");
+    res.send(issuance_detail[tabname]).status(200);
+})
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+
+    console.log(`Example app listening on port http://localhost:${port}/.netlify/functions/api`)
 })
 
 app.use('/.netlify/functions/api', route)
