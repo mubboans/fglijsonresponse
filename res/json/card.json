@@ -13,27 +13,42 @@
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -101,27 +116,42 @@
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [

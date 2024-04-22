@@ -26,7 +26,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -34,7 +37,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -42,7 +48,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -50,7 +59,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -101,7 +113,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -109,7 +124,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -117,7 +135,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -125,7 +146,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -176,7 +200,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -184,7 +211,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -192,7 +222,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -200,7 +233,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -251,7 +287,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -259,7 +298,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -267,7 +309,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -275,7 +320,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -338,7 +386,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -346,7 +397,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -354,7 +408,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -362,7 +419,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -413,7 +473,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -421,7 +484,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -429,7 +495,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -437,7 +506,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [
@@ -488,7 +560,10 @@
                     "displayName": "Id",
                     "dWidth": 90,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "name",
@@ -496,7 +571,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": true
+                    "lock": true,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "sumassured",
@@ -504,7 +582,10 @@
                     "displayName": "Name",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "premium",
@@ -512,7 +593,10 @@
                     "displayName": "Premium",
                     "dWidth": 146,
                     "mWidth": 120,
-                    "lock": false
+                    "lock": false,
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "detail": [

@@ -4,7 +4,7 @@
             "title": "Persistency",
             "subtitle": "Current month",
             "iconvalue": "calendar",
-            "detailUrl": "/presistence/presistence/detail",
+            "detailUrl": "/presistence/detail?tabname=persistency",
             "bgiconcolor": "sky-blue",
             "columnname": [
                 {
@@ -70,7 +70,7 @@
             "title": "Summary",
             "subtitle": "RCD level",
             "iconvalue": "hospital",
-            "detailUrl": "/presistence/summaryrcd/detail",
+            "detailUrl": "/presistence/detail?tabname=summaryrcd",
             "bgiconcolor": "pink",
             "columnname": [
                 {
@@ -136,7 +136,7 @@
             "title": "Summary",
             "subtitle": "SM level",
             "iconvalue": "hospital",
-            "detailUrl": "/presistence/summarysm/detail",
+            "detailUrl": "/presistence/detail?tabname=summarysm",
             "bgiconcolor": "yellow",
             "columnname": [
                 {
@@ -200,9 +200,9 @@
         },
         {
             "title": "Summary",
-            "subtitle": "RCD level",
+            "subtitle": "Agent LEVEL SUMMARY",
             "iconvalue": "hospital",
-            "detailUrl": "/presistence/summaryrcd/detail",
+            "detailUrl": "/presistence/detail?tabname=persistency",
             "bgiconcolor": "pink",
             "columnname": [
                 {

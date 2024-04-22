@@ -16,7 +16,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "agent_name",
@@ -25,7 +28,10 @@
                 "displayName": "Agent Name",
                 "dWidth": 146,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "13th_month_paid",
@@ -33,19 +39,28 @@
                     {
                         "colname": "nop",
                         "datatype": "string",
-                        "displayName": "NOP"
+                        "displayName": "NOP",
+                        "sortable": true,
+                        "headerAlign": "center",
+                        "align": "center"
                     },
                     {
                         "colname": "ape",
                         "datatype": "string",
-                        "displayName": "APE"
+                        "displayName": "APE",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     }
                 ],
                 "datatype": "object",
                 "displayName": "13th Month Paid",
                 "dWidth": 146,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "13th_month_not_paid",
@@ -53,12 +68,18 @@
                     {
                         "colname": "nop",
                         "datatype": "string",
-                        "displayName": "NOP"
+                        "displayName": "NOP",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     },
                     {
                         "colname": "ape",
                         "datatype": "string",
-                        "displayName": "APE"
+                        "displayName": "APE",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     }
                 ],
                 "datatype": "object",
@@ -73,12 +94,18 @@
                     {
                         "colname": "nop",
                         "datatype": "string",
-                        "displayName": "NOP"
+                        "displayName": "NOP",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     },
                     {
                         "colname": "ape",
                         "datatype": "string",
-                        "displayName": "APE"
+                        "displayName": "APE",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     }
                 ],
                 "datatype": "object",
@@ -93,12 +120,18 @@
                     {
                         "colname": "nop",
                         "datatype": "string",
-                        "displayName": "NOP"
+                        "displayName": "NOP",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     },
                     {
                         "colname": "ape",
                         "datatype": "string",
-                        "displayName": "APE"
+                        "displayName": "APE",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     }
                 ],
                 "datatype": "object",
@@ -113,12 +146,18 @@
                     {
                         "colname": "nop",
                         "datatype": "string",
-                        "displayName": "NOP"
+                        "displayName": "NOP",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     },
                     {
                         "colname": "ape",
                         "datatype": "string",
-                        "displayName": "APE"
+                        "displayName": "APE",
+                        "sortable": false,
+                        "headerAlign": "center",
+                        "align": "center"
                     }
                 ],
                 "datatype": "object",

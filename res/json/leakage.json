@@ -1,0 +1,319 @@
+{
+    "bar": {
+        "name": "Leakage Funnel",
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "displaycol": false
+            },
+            {
+                "colname": "title",
+                "datatype": "string",
+                "displayName": "Title",
+                "displaycol": true
+            },
+            {
+                "colname": "valueincr",
+                "datatype": "string",
+                "displayName": "valueincr",
+                "displaycol": true
+            },
+            {
+                "colname": "valueinpercentage",
+                "datatype": "string",
+                "displayName": "valueinpercentage",
+                "displaycol": true
+            },
+            {
+                "colname": "barlength",
+                "datatype": "number",
+                "displayName": "barlength",
+                "displaycol": true
+            },
+            {
+                "colname": "barvalue",
+                "datatype": "number",
+                "displayName": "barvalue",
+                "displaycol": true
+            },
+            {
+                "colname": "barcolor",
+                "datatype": "barcolor",
+                "displayName": "string",
+                "displaycol": true
+            }
+        ],
+        "detail": [
+            {
+                "id": 0,
+                "title": "Total Stock",
+                "valueincr": "40,00,00,000",
+                "valueinpercentage": "79%",
+                "barlength": 500,
+                "barvalue": 246,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 1,
+                "title": "Pre Issued",
+                "valueincr": "39,00,00,000",
+                "valueinpercentage": "65%",
+                "barlength": 500,
+                "barvalue": 449,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 2,
+                "title": "Leak",
+                "valueincr": "30,00,00,000",
+                "valueinpercentage": "70%",
+                "barlength": 500,
+                "barvalue": 192,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 3,
+                "title": "Pending with OPS",
+                "valueincr": "15,00,00,000",
+                "valueinpercentage": "72%",
+                "barlength": 500,
+                "barvalue": 167,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 4,
+                "title": "Pending with Sales",
+                "valueincr": "13,00,00,000",
+                "valueinpercentage": "80%",
+                "barlength": 500,
+                "barvalue": 461,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 5,
+                "title": "Gross Issuance",
+                "valueincr": "40,00,00,000",
+                "valueinpercentage": "99%",
+                "barlength": 500,
+                "barvalue": 435,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 6,
+                "title": "Post Issued Leak",
+                "valueincr": "15,00,00,000",
+                "valueinpercentage": "73%",
+                "barlength": 500,
+                "barvalue": 496,
+                "barcolor": "yellow"
+            },
+            {
+                "id": 7,
+                "title": "Net issuance",
+                "valueincr": "13,00,00,000",
+                "valueinpercentage": "61%",
+                "barlength": 500,
+                "barvalue": 446,
+                "barcolor": "yellow"
+            }
+        ]
+    },
+    "detail": {
+        "name": "TOTAL STOCK DETAILS",
+        "pagingInfo": {
+            "totalRecords": 61,
+            "pageNo": 1,
+            "pageSize": 5,
+            "recordCount": 5,
+            "noOfPages": 13
+        },
+        "columnname": [
+            {
+                "colname": "id",
+                "datatype": "number",
+                "displayName": "Id",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "policyno",
+                "datatype": "string",
+                "displayName": "Policy No",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": true
+            },
+            {
+                "colname": "typeofleakage",
+                "datatype": "string",
+                "displayName": "Type of leakage",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "policystatus",
+                "datatype": "string",
+                "displayName": "Policy Status",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "subcategory",
+                "datatype": "string",
+                "displayName": "Sub category",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "agent_id",
+                "datatype": "number",
+                "displayName": "Agent ID",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "channel",
+                "datatype": "string",
+                "displayName": "Channel",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "nop",
+                "datatype": "string",
+                "displayName": "NOP",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            },
+            {
+                "colname": "ape",
+                "datatype": "string",
+                "displayName": "ape",
+                "dWidth": 146,
+                "mWidth": 120,
+                "lock": false
+            }
+        ],
+        "detail": [
+            {
+                "id": 0,
+                "policyno": "707veniam8031",
+                "typeofleakage": 132.7,
+                "policystatus": "OnHold",
+                "subcategory": 8.52,
+                "agent_id": "530eu212",
+                "channel": 153.6,
+                "nop": 219.2,
+                "ape": -8.1
+            },
+            {
+                "id": 1,
+                "policyno": "505ut6889",
+                "typeofleakage": 109.7,
+                "policystatus": "OnHold",
+                "subcategory": 9.74,
+                "agent_id": "335duis241",
+                "channel": 41.2,
+                "nop": 135,
+                "ape": 65.3
+            },
+            {
+                "id": 2,
+                "policyno": "958enim4309",
+                "typeofleakage": 138.2,
+                "policystatus": "OnHold",
+                "subcategory": 0.53,
+                "agent_id": "531quis215",
+                "channel": 54.4,
+                "nop": 179.1,
+                "ape": 135
+            },
+            {
+                "id": 3,
+                "policyno": "531nisi1952",
+                "typeofleakage": 140.5,
+                "policystatus": "Active",
+                "subcategory": 5.16,
+                "agent_id": "743culpa245",
+                "channel": 59.3,
+                "nop": 335.7,
+                "ape": 131.3
+            },
+            {
+                "id": 4,
+                "policyno": "296enim5636",
+                "typeofleakage": 111.2,
+                "policystatus": "Rejected",
+                "subcategory": 5.89,
+                "agent_id": "739laboris244",
+                "channel": 37.2,
+                "nop": 181.6,
+                "ape": 300.9
+            },
+            {
+                "id": 5,
+                "policyno": "768velit1242",
+                "typeofleakage": 102.6,
+                "policystatus": "Active",
+                "subcategory": 5.98,
+                "agent_id": "352tempor226",
+                "channel": 332,
+                "nop": 249.3,
+                "ape": 261.8
+            },
+            {
+                "id": 6,
+                "policyno": "603minim5459",
+                "typeofleakage": 130.7,
+                "policystatus": "Active",
+                "subcategory": 8.79,
+                "agent_id": "397velit219",
+                "channel": 172,
+                "nop": 313,
+                "ape": 147.1
+            },
+            {
+                "id": 7,
+                "policyno": "170aute7997",
+                "typeofleakage": 108.5,
+                "policystatus": "Inprocess",
+                "subcategory": 9.34,
+                "agent_id": "794duis250",
+                "channel": 13.7,
+                "nop": 303,
+                "ape": 187
+            },
+            {
+                "id": 8,
+                "policyno": "961occaecat7700",
+                "typeofleakage": 142.9,
+                "policystatus": "Inprocess",
+                "subcategory": 2.27,
+                "agent_id": "506non236",
+                "channel": 6.2,
+                "nop": 329.6,
+                "ape": 111.1
+            },
+            {
+                "id": 9,
+                "policyno": "116anim8680",
+                "typeofleakage": 126.9,
+                "policystatus": "OnHold",
+                "subcategory": 0.36,
+                "agent_id": "422incididunt231",
+                "channel": 305.3,
+                "nop": 184.9,
+                "ape": 238.9
+            }
+        ]
+    }
+}

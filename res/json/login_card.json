@@ -6,34 +6,49 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
-            "detailUrl": "/login/detail?name=premium",
+            "detailUrl": "/login/detail?tabname=premium",
             "bgiconcolor": "sky-blue",
             "isActive": true,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -94,34 +109,49 @@
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
-            "detailUrl": "/login/detail?name=nop",
+            "detailUrl": "/login/detail?tabname=nop",
             "bgiconcolor": "pink",
             "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -183,33 +213,48 @@
             "planvalue": "22.20%",
             "iconvalue": "charger",
             "bgiconcolor": "purple",
-            "detailUrl": "/login/detail?name=nca",
+            "detailUrl": "/login/detail?tabname=nca",
             "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -270,34 +315,49 @@
             "lysmvalue": "22.92%",
             "planvalue": "24.54%",
             "iconvalue": "account",
-            "detailUrl": "/login/detail?name=activation",
+            "detailUrl": "/login/detail?tabname=activation",
             "bgiconcolor": "pink",
             "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -359,33 +419,48 @@
             "planvalue": "22.20%",
             "iconvalue": "charger",
             "bgiconcolor": "purple",
-            "detailUrl": "/login/detail?name=ats",
+            "detailUrl": "/login/detail?tabname=ats",
             "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [
@@ -446,34 +521,49 @@
             "lysmvalue": "18.11%",
             "planvalue": "13.22%",
             "iconvalue": "wallet",
-            "detailUrl": "/login/detail?name=newcoding",
+            "detailUrl": "/login/detail?tabname=newcoding",
             "bgiconcolor": "sky-blue",
             "isActive": false,
             "columnname": [
                 {
                     "colname": "name",
                     "datatype": "string",
-                    "displayName": "NAME"
+                    "displayName": "NAME",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "t-1",
                     "datatype": "string",
-                    "displayName": "T-1"
+                    "displayName": "T-1",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ftd",
                     "datatype": "string",
-                    "displayName": "FTD"
+                    "displayName": "FTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "mtd",
                     "datatype": "string",
-                    "displayName": "MTD"
+                    "displayName": "MTD",
+                    "sortable": true,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ytd",
                     "datatype": "string",
-                    "displayName": "YTD"
+                    "displayName": "YTD",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "columndata": [

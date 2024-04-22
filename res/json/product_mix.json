@@ -14,7 +14,10 @@
             "displayName": "Id",
             "dWidth": 146,
             "mWidth": 120,
-            "lock": false
+            "lock": false,
+            "sortable": false,
+            "headerAlign": "center",
+            "align": "center"
         },
         {
             "colname": "zones",
@@ -23,7 +26,10 @@
             "displayName": "Zones",
             "dWidth": 146,
             "mWidth": 120,
-            "lock": false
+            "lock": false,
+            "sortable": true,
+            "headerAlign": "center",
+            "align": "center"
         },
         {
             "colname": "par",
@@ -31,12 +37,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",
@@ -51,12 +63,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",
@@ -71,12 +89,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",
@@ -91,12 +115,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",
@@ -111,12 +141,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",
@@ -131,12 +167,18 @@
                 {
                     "colname": "ppt<==10",
                     "datatype": "string",
-                    "displayName": "PPT<==10"
+                    "displayName": "PPT<==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 },
                 {
                     "colname": "ppt>==10",
                     "datatype": "string",
-                    "displayName": "PPT>==10"
+                    "displayName": "PPT>==10",
+                    "sortable": false,
+                    "headerAlign": "center",
+                    "align": "center"
                 }
             ],
             "datatype": "object",

@@ -16,15 +16,21 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
                 "datatype": "string",
                 "displayName": "Zones",
-                "dWidth": 184,
+                "dWidth": 120,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -32,7 +38,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -40,7 +49,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -48,7 +60,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -56,7 +71,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -64,7 +82,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -72,7 +93,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -80,7 +104,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -88,7 +115,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -96,7 +126,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -104,7 +137,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -112,7 +148,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -120,7 +159,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -128,7 +170,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
@@ -421,7 +466,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
@@ -429,7 +477,10 @@
                 "displayName": "Zones",
                 "dWidth": 184,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -437,7 +488,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -445,7 +499,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -453,7 +510,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -461,7 +521,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -469,7 +532,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -477,7 +543,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -485,7 +554,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -493,7 +565,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -501,7 +576,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -509,7 +587,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -517,7 +598,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -525,7 +609,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -533,7 +620,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
@@ -826,7 +916,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
@@ -834,7 +927,10 @@
                 "displayName": "Zones",
                 "dWidth": 184,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -842,7 +938,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -850,7 +949,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -858,7 +960,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -866,7 +971,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -874,7 +982,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -882,7 +993,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -890,7 +1004,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -898,7 +1015,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -906,7 +1026,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -914,7 +1037,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -922,7 +1048,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -930,7 +1059,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -938,7 +1070,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
@@ -1231,7 +1366,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
@@ -1239,7 +1377,10 @@
                 "displayName": "Zones",
                 "dWidth": 184,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -1247,7 +1388,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -1255,7 +1399,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -1263,7 +1410,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -1271,7 +1421,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -1279,7 +1432,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -1287,7 +1443,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -1295,7 +1454,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -1303,7 +1465,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -1311,7 +1476,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -1319,7 +1487,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -1327,7 +1498,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -1335,7 +1509,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -1343,7 +1520,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
@@ -1636,7 +1816,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
@@ -1644,7 +1827,10 @@
                 "displayName": "Zones",
                 "dWidth": 184,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -1652,7 +1838,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -1660,7 +1849,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -1668,7 +1860,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -1676,7 +1871,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -1684,7 +1882,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -1692,7 +1893,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -1700,7 +1904,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -1708,7 +1915,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -1716,7 +1926,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -1724,7 +1937,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -1732,7 +1948,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -1740,7 +1959,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -1748,7 +1970,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
@@ -2041,7 +2266,10 @@
                 "displayName": "Id",
                 "dWidth": 90,
                 "mWidth": 90,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonename",
@@ -2049,7 +2277,10 @@
                 "displayName": "Zones",
                 "dWidth": 184,
                 "mWidth": 120,
-                "lock": true
+                "lock": true,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "zonalmanager",
@@ -2057,7 +2288,10 @@
                 "displayName": "Zones Manager",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionnamecode",
@@ -2065,7 +2299,10 @@
                 "displayName": "Region Name and Code",
                 "dWidth": 192,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": true,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "regionmanagernamecode",
@@ -2073,7 +2310,10 @@
                 "displayName": "Region Manager Name and Code",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchnamecode",
@@ -2081,7 +2321,10 @@
                 "displayName": "Branch Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "branchmanagernamecode",
@@ -2089,7 +2332,10 @@
                 "displayName": "Branch Manager Name and Code",
                 "dWidth": 128,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ftd",
@@ -2097,7 +2343,10 @@
                 "displayName": "FTD",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtdplan",
@@ -2105,7 +2354,10 @@
                 "displayName": "MTD Plan",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "mtd%",
@@ -2113,7 +2365,10 @@
                 "displayName": "MTD%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm",
@@ -2121,7 +2376,10 @@
                 "displayName": "LYSM",
                 "dWidth": 112,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "lysm%",
@@ -2129,7 +2387,10 @@
                 "displayName": "LYSM%",
                 "dWidth": 152,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_plan",
@@ -2137,7 +2398,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd_actual",
@@ -2145,7 +2409,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             },
             {
                 "colname": "ytd%",
@@ -2153,7 +2420,10 @@
                 "displayName": "YTD Plan",
                 "dWidth": 141,
                 "mWidth": 120,
-                "lock": false
+                "lock": false,
+                "sortable": false,
+                "headerAlign": "center",
+                "align": "center"
             }
         ],
         "detail": [
