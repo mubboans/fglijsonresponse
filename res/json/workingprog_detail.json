@@ -1759,5 +1759,94 @@
                 "ytd%": "-97.25%"
             }
         ]
+    },
+    "tabchart": {
+        "title": "Pending APE by Action owners",
+        "datasets": [
+            {
+                "label": "Medical + Income",
+                "data": [
+                    4
+                ],
+                "backgroundColor": "#9ED2FF"
+            },
+            {
+                "label": "Income proof",
+                "data": [
+                    10
+                ],
+                "backgroundColor": "#FF9AA2"
+            },
+            {
+                "label": "Cheque bounce",
+                "data": [
+                    3
+                ],
+                "backgroundColor": "#9DE8CF"
+            },
+            {
+                "label": "Non medical request pending",
+                "data": [
+                    5
+                ],
+                "backgroundColor": "#9AB0FC"
+            },
+            {
+                "label": "In queue for underwriting",
+                "data": [
+                    11
+                ],
+                "backgroundColor": "#F9AA90"
+            },
+            {
+                "label": "Pending PLVC",
+                "data": [
+                    2
+                ],
+                "backgroundColor": "#E7B8F7"
+            },
+            {
+                "label": "Money pending",
+                "data": [
+                    5
+                ],
+                "backgroundColor": "#FFDE8A"
+            },
+            {
+                "label": "Resolved",
+                "data": [
+                    11
+                ],
+                "backgroundColor": "#BD9FFD"
+            },
+            {
+                "label": "Medical",
+                "data": [
+                    2
+                ],
+                "backgroundColor": "#F9AA90"
+            },
+            {
+                "label": "Refer to field verification",
+                "data": [
+                    5
+                ],
+                "backgroundColor": "#F8D0C3"
+            },
+            {
+                "label": "PLVC & money pending",
+                "data": [
+                    4
+                ],
+                "backgroundColor": "#B8D9F8"
+            },
+            {
+                "label": "PLVC & money pending",
+                "data": [
+                    4
+                ],
+                "backgroundColor": "#B8D9F8"
+            }
+        ]
     }
 }
